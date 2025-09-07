@@ -14,33 +14,18 @@
   ./eza.nix
   ./skim.nix
   ./git.nix
+  ./pkgs.nix
   ];
 
-  home.username = "pyndys";
-  home.homeDirectory = "/home/pyndys";
-
-  home.stateVersion = "25.05"; 
-
-  home.packages = with pkgs; [
-     # Some apps
-     telegram-desktop
-     logseq
-     mission-center
-     # CLI pkgs
-     wget
-     bat
-     ripgrep
-     dust
-     fd
-     # Dev 
-     android-tools # adb/fastboot
-     python313
-  ];
-
-  home.sessionVariables = {
-    EDITOR = "hx";
-    TERM = "ghostty";
-    SHELL = "fish";
+  home = {
+    username = "pyndys";
+    homeDirectory = "/home/pyndys";
+    stateVersion = "25.05"; 
+    sessionVariables = {
+      EDITOR = "hx";
+      TERM = "ghostty";
+      SHELL = "fish";
+    };
   };
 
   # Let Home Manager install and manage itself.
