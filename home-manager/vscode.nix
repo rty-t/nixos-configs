@@ -12,6 +12,7 @@
     userSettings = {
       "files.autoSave" = "on";
       "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
+      "git.openRepositoryInParentFolders" = "always";
      };
     };
    };
