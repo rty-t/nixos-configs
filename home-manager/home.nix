@@ -13,6 +13,7 @@
   ./zoxide.nix
   ./eza.nix
   ./skim.nix
+  ./git.nix
   ];
 
   home.username = "pyndys";
@@ -27,7 +28,6 @@
      mission-center
      # CLI pkgs
      wget
-     git
      bat
      ripgrep
      dust
