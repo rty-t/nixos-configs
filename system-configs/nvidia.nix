@@ -1,9 +1,6 @@
 { lib, config, pkgs, ... }:
 
 {
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-  
   services.xserver.videoDrivers = ["nvidia"];
 
   hardware = {

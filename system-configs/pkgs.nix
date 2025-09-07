@@ -9,6 +9,15 @@
      prismlauncher
     ];
 
+    # Unfree
+    nixpkgs.config.allowUnfreePredicate = pkg:
+    builtins.elem (lib.getName pkg) [
+      "nvidia-x11"
+      "nvidia-settings"
+      "steam-unwrapped"
+      "steam"
+    ];
+
     # Enable flatpak
     services.flatpak.enable = true;
 }
