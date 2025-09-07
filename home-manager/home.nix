@@ -38,7 +38,7 @@
   ];
 
   home.sessionVariables = {
-    EDITOR = "helix";
+    EDITOR = "hx";
     TERM = "ghostty";
     SHELL = "fish";
   };
