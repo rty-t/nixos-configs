@@ -3,7 +3,7 @@
 {
   home.packages = with pkgs; [
      # Some apps
-     telegram-desktop
+     materialgram
      logseq
      mission-center
      switcheroo
