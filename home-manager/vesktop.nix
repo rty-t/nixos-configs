@@ -9,10 +9,10 @@
     disableMinSize = true;
     minimizeToTray = true;
     tray = true;
-    splashBackground = "#000000";
-    splashColor = "#ffffff";
+    splashBackground = "#0d1117";
+    splashColor = "#58a6ff";
     splashTheming = true;
-    staticTitle = true;
+    staticTitle = false;
     hardwareAcceleration = true;
     discordBranch = "stable";
    };
