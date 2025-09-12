@@ -3,16 +3,21 @@
 {
   home.packages = with pkgs; [
      # Some apps
+     logseq # notes/markdown
+     mission-center # system monitor
+     switcheroo # convert images
+
+     # Telegram clients
+     #telegram-desktop
+     #ayugram-desktop
      materialgram
-     logseq
-     mission-center
-     switcheroo
+
      # CLI pkgs
      wget
-     bat
-     ripgrep
-     dust
-     fd
+     bat # better cat
+     ripgrep # better grep
+     dust # better du
+
      # Dev 
      android-tools # adb/fastboot
      python313
