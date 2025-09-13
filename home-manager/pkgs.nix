@@ -4,15 +4,20 @@
   home.packages = with pkgs; [
 
      ## Some apps
-     logseq # notes/markdown
      mission-center # system monitor
      switcheroo # convert images
 
+     ## Notes/markdown
+     #logseq
+     folio
+     #apostrophe
+     #obsidian #unfree😭😭😭
+
      ## Telegram clients
-     #telegram-desktop
+     telegram-desktop
      #ayugram-desktop
      #materialgram
-     paper-plane #gtk
+     #paper-plane #gtk
      #_64gram
 
      ## CLI pkgs
