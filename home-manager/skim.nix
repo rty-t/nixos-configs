@@ -4,7 +4,7 @@
    enableFishIntegration = true;
    enableBashIntegration = false;
    enableZshIntegration = false;
-   defaultOptions = [];
+   defaultOptions = [ "--color 16" ];
    historyWidgetOptions = [];
    fileWidgetOptions = [];
   };
