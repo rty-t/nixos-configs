@@ -2,6 +2,12 @@
 
 {
   home.packages = with pkgs; [
+
+     ## Some apps
+     logseq # notes/markdown
+     mission-center # system monitor
+     switcheroo # convert images
+
      ## Telegram clients
      #telegram-desktop
      #ayugram-desktop
