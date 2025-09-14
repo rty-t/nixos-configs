@@ -38,7 +38,6 @@
 
         # theme
         papirus-icon-theme
-        rewaita
 
         # Extensions
         gnomeExtensions.caffeine
