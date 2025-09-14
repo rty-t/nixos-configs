@@ -30,13 +30,11 @@ in
    dedicatedServer.openFirewall = true; 
    localNetworkGameTransfers.openFirewall = true;
    extraCompatPackages = with pkgs; [proton-ge-bin];
-   extraPackages = with pkgs; [
-    gamemode
-    adwsteamgtk
-   ];
   };
 
   environment.systemPackages = with pkgs; [
+     gamemode
+     adwsteamgtk   # Custom themes for steam
      prismlauncher # Minecraft launcher
      #heroic       # Native GOG, Epic, and Amazon Games Launcher
      #lutris       # Open Source gaming platform for GNU/Linux
