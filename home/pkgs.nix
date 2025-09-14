@@ -9,9 +9,11 @@
 
      ## Notes/markdown
      #logseq
-     folio
+     #folio
      #apostrophe
      #obsidian #unfree😭😭😭
+     #trilium-desktop
+     #joplin-desktop
 
      ## Telegram clients
      telegram-desktop
@@ -19,6 +21,13 @@
      #materialgram
      #paper-plane #gtk
      #_64gram
+
+     ## Discord clients
+     #discord #unfree😭😭😭
+     #goofcord
+     #dissent
+     #equibop
+     #vesktop
 
      ## CLI pkgs
      wget

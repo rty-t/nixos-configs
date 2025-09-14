@@ -2,19 +2,19 @@
 
 {
   imports = [
-  ./fastfetch.nix
-  #./kitty.nix
-  ./fish.nix
-  ./helix.nix
-  ./mangohud.nix
-  ./ghostty.nix
-  ./vesktop.nix
-  ./vscode.nix
-  ./zoxide.nix
-  ./eza.nix
-  ./skim.nix
-  ./git.nix
   ./pkgs.nix
+  ./cli/fish.nix
+  ./cli/fastfetch.nix
+  ./cli/git.nix
+  ./cli/eza.nix
+  ./cli/skim.nix
+  ./cli/zoxide.nix
+  ./editors/helix.nix
+  ./editors/vscode.nix
+  ./gui/mangohud.nix
+  ./gui/vesktop.nix
+  ./terms/ghostty.nix
+  #./terms/kitty.nix
   ];
 
   home = {
