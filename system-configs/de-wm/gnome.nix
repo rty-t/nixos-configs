@@ -6,8 +6,7 @@
     # Activation  GNOME
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     services = {
-      udev.packages = [ pkgs.gnome-settings-daemon ];
- xserver = {        
+      udev.packages = [ pkgs.gnome-settings-daemon ];        
         displayManager.gdm.enable = lib.mkDefault true;
         desktopManager.gnome = {
           enable = lib.mkDefault true;
@@ -19,7 +18,6 @@
             experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate']
           '';
         };
-      };
     };
 
     documentation.nixos.enable = false;
@@ -40,9 +38,7 @@
 
         # theme
         papirus-icon-theme
-
-        # gnome
-        gnome-extension-manager
+        rewaita
 
         # Extensions
         gnomeExtensions.caffeine
@@ -85,6 +81,10 @@
         gnome-weather
         gnome-terminal
         gnome-system-monitor
+        gnome-characters
+        gnome-music
+        gnome-secrets
+        gnome-connections
       ];
     };
 }
