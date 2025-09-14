@@ -5,7 +5,7 @@
 
      ## Some apps
      mission-center # system monitor
-     switcheroo # convert images
+     switcheroo     # convert images
 
      ## Notes/markdown
      #logseq
@@ -31,9 +31,9 @@
 
      ## CLI pkgs
      wget
-     bat # better cat
+     bat     # better cat
      ripgrep # better grep
-     dust # better du
+     dust    # better du
 
      ## Dev 
      android-tools # adb/fastboot

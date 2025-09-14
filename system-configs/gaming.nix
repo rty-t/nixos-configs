@@ -10,13 +10,13 @@ in
     aagl.module
   ];
 
-  nix.settings = aagl.nixConfig; # Set up Cachix
-  programs.anime-game-launcher.enable = true; #genshin
-  programs.anime-games-launcher.enable = false; #all anime games
-  programs.honkers-railway-launcher.enable = false; #starrail
-  programs.honkers-launcher.enable = false; #honkai
-  programs.wavey-launcher.enable = false; #waves
-  programs.sleepy-launcher.enable = false; #zzz
+  nix.settings = aagl.nixConfig;                    # Set up Cachix
+  programs.anime-game-launcher.enable = true;       # genshin
+  programs.anime-games-launcher.enable = false;     # all anime games
+  programs.honkers-railway-launcher.enable = false; # starrail
+  programs.honkers-launcher.enable = false;         # honkai
+  programs.wavey-launcher.enable = false;           # waves
+  programs.sleepy-launcher.enable = false;          # zzz
 
   programs.gamescope = {
       enable = true;
