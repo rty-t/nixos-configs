@@ -12,14 +12,13 @@
     ./nvidia.nix
     ./locale.nix
     ./pkgs.nix
-    ./steam.nix
     ./user.nix
     ./amnezia.nix
     ./networking.nix
     #./de-wm/plasma.nix
     ./de-wm/gnome.nix
-    ./aagl.nix
     ./fonts.nix
+    ./gaming.nix
     ];
 
   nix = { 

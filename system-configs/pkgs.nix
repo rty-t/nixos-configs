@@ -5,8 +5,6 @@
     environment.systemPackages = with pkgs; [
      sudo-rs
      f2fs-tools #for f2fs
-     gamemode
-     prismlauncher
     ];
 
     # Unfree
