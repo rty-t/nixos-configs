@@ -83,7 +83,6 @@
         gnome-characters
         gnome-music
         gnome-secrets
-        gnome-connections
       ];
     };
 }
