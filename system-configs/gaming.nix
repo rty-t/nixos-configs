@@ -34,12 +34,18 @@ in
 
   environment.systemPackages = with pkgs; [
      gamemode
-     adwsteamgtk   # Custom themes for steam
-     prismlauncher # Minecraft launcher
-     #heroic       # Native GOG, Epic, and Amazon Games Launcher
-     #lutris       # Open Source gaming platform for GNU/Linux
-     #protonup-qt  # Install and manage Proton-GE and Luxtorpeda
+     adwsteamgtk    # Custom themes for steam
+     #minecraft     # Official Minecraft launcher #unfree😭😭😭
+     prismlauncher  # Minecraft launcher
+     #modrinth-app  # Minecraft launcher #unfree😭😭😭
+     #osu-lazer     # Rhythm is just a *click* away #unfree😭😭😭
+     #osu-lazer-bin # Rhythm is just a *click* away (appimage ver) #unfree😭😭😭
+     #heroic        # Native GOG, Epic, and Amazon Games Launcher
+     #lutris        # Open Source gaming platform for GNU/Linux
+     #protonup-qt   # Install and manage Proton-GE and Luxtorpeda
+     #bottles       # Easy-to-use wineprefix manager
+     #mangohud      # Monitoring FPS (I have module mangohud.nix btw)
+     #goverlay      # GUI settings for mangohud
+     #mangojuice    # GUI settings for mangohud (gtk)
     ];
-
-
 }

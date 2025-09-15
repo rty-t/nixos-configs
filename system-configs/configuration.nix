@@ -13,7 +13,6 @@
     ./locale.nix
     ./pkgs.nix
     ./user.nix
-    ./amnezia.nix
     ./networking.nix
     #./de-wm/plasma.nix
     ./de-wm/gnome.nix
