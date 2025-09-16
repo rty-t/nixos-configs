@@ -6,6 +6,7 @@
      ## Some apps
      mission-center # system monitor
      switcheroo     # convert images
+     blockbench     # low-poly 3D modeling
 
      ## Notes/markdown
      #logseq

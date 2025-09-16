@@ -14,6 +14,10 @@
       "nvidia-settings"
       "steam-unwrapped"
       "steam"
+      #"minecraft"
+      #"modrinth-app"
+      #"osu-lazer"
+      #"osu-lazer-bin"
     ];
 
     # Enable flatpak
