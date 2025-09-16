@@ -4,6 +4,7 @@
   home.packages = with pkgs; [
 
      ## Some apps
+     fractal        # Element
      mission-center # system monitor
      switcheroo     # convert images
 

@@ -13,6 +13,7 @@
   ./editors/vscode.nix
   ./gui/mangohud.nix
   ./gui/vesktop.nix
+  ./gui/librewolf.nix
   ./terms/ghostty.nix
   #./terms/kitty.nix
   ];
