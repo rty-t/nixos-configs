@@ -13,7 +13,9 @@
     ./locale.nix
     ./pkgs.nix
     ./user.nix
-    ./networking.nix
+    ./network/networking.nix
+    ./network/hosts.nix
+    ./network/zapre.nix
     #./de-wm/plasma.nix
     ./de-wm/gnome.nix
     ./fonts.nix

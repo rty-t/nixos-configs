@@ -37,9 +37,9 @@ in
      adwsteamgtk    # Custom themes for steam
      #minecraft     # Official Minecraft launcher #unfree😭😭😭
      prismlauncher  # Minecraft launcher
-     #modrinth-app  # Minecraft launcher #unfree😭😭😭
+     #modrinth-app   # Minecraft launcher #unfree😭😭😭
      #osu-lazer     # Rhythm is just a *click* away #unfree😭😭😭
-     #osu-lazer-bin # Rhythm is just a *click* away (appimage ver) #unfree😭😭😭
+     osu-lazer-bin  # Rhythm is just a *click* away (appimage ver with online score) #unfree😭😭😭
      #heroic        # Native GOG, Epic, and Amazon Games Launcher
      #lutris        # Open Source gaming platform for GNU/Linux
      #protonup-qt   # Install and manage Proton-GE and Luxtorpeda
