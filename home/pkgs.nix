@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
 
      ## Some apps
-     fractal        # Element
      mission-center # system monitor
      switcheroo     # convert images
 
@@ -29,6 +28,13 @@
      #dissent
      #equibop
      #vesktop
+
+     ## Matrix/Element clients
+     #element-desktop
+     fractal
+     #nheko
+     #fluffychat
+     #kdePackages.neochat
 
      ## CLI pkgs
      wget
