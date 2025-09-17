@@ -85,5 +85,8 @@
         gnome-secrets
       ];
     };
-   services.flatpak.packages = [ "org.altlinux.Tuner" ];
+   services.flatpak.packages = [ 
+    "org.altlinux.Tuner" 
+    "io.github.swordpuffin.rewaita"
+    ];
 }

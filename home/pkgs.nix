@@ -6,13 +6,12 @@
      ## Some apps
      mission-center # system monitor
      switcheroo     # convert images
-     blockbench     # low-poly 3D modeling
+     #blockbench    # low-poly 3D modeling
 
      ## Notes/markdown
      #logseq
-     #folio
+     #folio #gtk
      #apostrophe
-     #obsidian #unfree😭😭😭
      #trilium-desktop
      #joplin-desktop
 
@@ -24,9 +23,8 @@
      #_64gram
 
      ## Discord clients
-     #discord #unfree😭😭😭
      #goofcord
-     #dissent
+     #dissent #gtk
      #equibop
      #vesktop
 
