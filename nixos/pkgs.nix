@@ -21,6 +21,17 @@
       "osu-lazer-bin"
     ];
 
-    # Enable flatpak
-    services.flatpak.enable = true;
+    # flatpak
+    services.flatpak = {
+      enable = true;
+      packages = [
+        "io.github.kolunmi.Bazaar"
+        "io.github.flattool.Warehouse"
+        "com.github.tchx84.Flatseal"
+      ];
+      update.auto = {
+        enable = true;
+        onCalendar = "weekly";
+      };
+    };
 }

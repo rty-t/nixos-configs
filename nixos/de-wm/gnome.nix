@@ -85,4 +85,5 @@
         gnome-secrets
       ];
     };
+   services.flatpak.packages = [ "org.altlinux.Tuner" ];
 }

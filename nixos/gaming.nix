@@ -37,7 +37,7 @@ in
      adwsteamgtk    # Custom themes for steam
      #minecraft     # Official Minecraft launcher #unfree😭😭😭
      prismlauncher  # Minecraft launcher
-     #modrinth-app   # Minecraft launcher #unfree😭😭😭
+     #modrinth-app  # Minecraft launcher #unfree😭😭😭
      #osu-lazer     # Rhythm is just a *click* away #unfree😭😭😭
      osu-lazer-bin  # Rhythm is just a *click* away (appimage ver with online score) #unfree😭😭😭
      #heroic        # Native GOG, Epic, and Amazon Games Launcher
@@ -48,4 +48,11 @@ in
      #goverlay      # GUI settings for mangohud
      #mangojuice    # GUI settings for mangohud (gtk)
     ];
+
+  services.flatpak.packages = [
+     "org.vinegarhq.Sober"          # Roblox launcher
+     #"ru.linux_gaming.PortProton"  # Games launcher
+     #"app.twintaillauncher.ttl"    # Launcher for anime games modding
+     #"xyz.rust4diva.Rust4Diva"     # GUI mod manager for Project Diva Mega Mix +
+  ];
 }

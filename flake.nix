@@ -5,12 +5,13 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     nixowos.url = "github:yunfachi/nixowos";
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
     home-manager = {
        url = "github:nix-community/home-manager";
        inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-  outputs = { nixpkgs, home-manager, chaotic, nixowos, ... }: 
+  outputs = { nixpkgs, home-manager, chaotic, nixowos, nix-flatpak, ... }: 
   let
     system = "x86_64-linux";
   in {
@@ -20,6 +21,7 @@
         ./nixos/configuration.nix
         chaotic.nixosModules.default
         nixowos.nixosModules.default
+        nix-flatpak.nixosModules.nix-flatpak
       ];
     };
     homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {
