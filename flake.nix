@@ -1,5 +1,5 @@
 {
-  descrpiption = "rtytflake";
+  description = "rtytflake";
   
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
