@@ -34,12 +34,11 @@ in
 
   environment.systemPackages = with pkgs; [
      gamemode
-     adwsteamgtk    # Custom themes for steam
-     #minecraft     # Official Minecraft launcher #unfree😭😭😭
+     adwsteamgtk    # Custom themes for steam 
      prismlauncher  # Minecraft launcher
-     #modrinth-app  # Minecraft launcher #unfree😭😭😭
-     #osu-lazer     # Rhythm is just a *click* away #unfree😭😭😭
-     osu-lazer-bin  # Rhythm is just a *click* away (appimage ver with online score) #unfree😭😭😭
+     #modrinth-app  # Minecraft launcher (not working)
+     #osu-lazer     # Rhythm is just a *click* away 
+     osu-lazer-bin  # Rhythm is just a *click* away (appimage ver with online score)
      #heroic        # Native GOG, Epic, and Amazon Games Launcher
      #lutris        # Open Source gaming platform for GNU/Linux
      #protonup-qt   # Install and manage Proton-GE and Luxtorpeda
@@ -48,11 +47,4 @@ in
      #goverlay      # GUI settings for mangohud
      #mangojuice    # GUI settings for mangohud (gtk)
     ];
-
-  services.flatpak.packages = [
-     "org.vinegarhq.Sober"          # Roblox launcher
-     #"ru.linux_gaming.PortProton"  # Games launcher
-     #"app.twintaillauncher.ttl"    # Launcher for anime games modding
-     #"xyz.rust4diva.Rust4Diva"     # GUI mod manager for Project Diva Mega Mix +
-  ];
 }

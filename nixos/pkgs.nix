@@ -3,7 +3,6 @@
 {
     # System packages
     environment.systemPackages = with pkgs; [
-     sudo-rs
      f2fs-tools #for f2fs
     ];
 
@@ -14,7 +13,6 @@
       "nvidia-settings"
       "steam-unwrapped"
       "steam"
-      "minecraft"
       "modrinth-app"
       "modrinth-app-unwrapped"
       "osu-lazer"
