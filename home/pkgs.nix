@@ -36,6 +36,7 @@
      #kdePackages.neochat
 
      ## CLI pkgs
+     nitch
      wget
      bat     # better cat
      ripgrep # better grep
