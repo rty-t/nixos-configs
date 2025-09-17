@@ -4,12 +4,13 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    nixowos.url = "github:yunfachi/nixowos";
     home-manager = {
        url = "github:nix-community/home-manager";
        inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-  outputs = { nixpkgs, home-manager, chaotic, ... }: 
+  outputs = { nixpkgs, home-manager, chaotic, nixowos, ... }: 
   let
     system = "x86_64-linux";
   in {
@@ -18,12 +19,14 @@
       modules = [
         ./nixos/configuration.nix
         chaotic.nixosModules.default
+        nixowos.nixosModules.default
       ];
     };
     homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
       modules = [
         ./home/home.nix
+        nixowos.homeModules.default
       ];
     };
   };

@@ -29,12 +29,22 @@
     auto-optimise-store = true;
     warn-dirty = false;
    };
+   
    gc = {
      automatic = true;
      dates = "weekly";
      options = "--delete-older-than 14d";
      };
    };
+
+  nixowos = {
+   enable = true;
+   os-release = {
+     enable = true;
+     changeName = true;
+     changeId = false;
+   };
+  };
    
   system.stateVersion = "25.05"; 
 
