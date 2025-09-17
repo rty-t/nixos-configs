@@ -9,6 +9,7 @@
   ./cli/eza.nix
   ./cli/skim.nix
   ./cli/zoxide.nix
+  ./cli/nixowos.nix
   ./editors/helix.nix
   ./editors/vscode.nix
   ./gui/mangohud.nix
@@ -31,6 +32,4 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
-
-  nixowos.enable = true;
 }
