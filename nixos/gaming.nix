@@ -29,7 +29,7 @@ in
    remotePlay.openFirewall = true; 
    dedicatedServer.openFirewall = true; 
    localNetworkGameTransfers.openFirewall = true;
-   extraCompatPackages = with pkgs; [proton-ge-bin];
+   extraCompatPackages = with pkgs; [proton-ge-bin proton-cachyos_x86_64_v3];
   };
 
   environment.systemPackages = with pkgs; [
