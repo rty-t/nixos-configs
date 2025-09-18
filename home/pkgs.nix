@@ -10,30 +10,19 @@
 
      ## Notes/markdown
      #logseq
-     #folio #gtk
-     #apostrophe
-     #trilium-desktop
-     #joplin-desktop
+     folio #gtk
 
      ## Telegram clients
      telegram-desktop
      #ayugram-desktop
      #materialgram
      #paper-plane #gtk
-     #_64gram
-
-     ## Discord clients
-     #goofcord
-     #dissent #gtk
-     #equibop
-     #vesktop
 
      ## Matrix/Element clients
      #element-desktop
      fractal
      #nheko
      #fluffychat
-     #kdePackages.neochat
 
      ## CLI pkgs
      wget
