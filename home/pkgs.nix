@@ -25,6 +25,7 @@
      #fluffychat
 
      ## CLI pkgs
+     fd
      wget
      bat     # better cat
      ripgrep # better grep

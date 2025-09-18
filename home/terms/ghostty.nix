@@ -2,8 +2,6 @@
   programs.ghostty = {
    enable = true;
    enableFishIntegration = true;
-   enableBashIntegration = false;
-   enableZshIntegration = false;
    installBatSyntax = true;
    settings = {
     theme = "GitHub Dark Colorblind";
