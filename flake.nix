@@ -27,12 +27,12 @@
         imports = [ aagl.nixosModules.default ];
         nix.settings = aagl.nixConfig; # Set up Cachix
         programs = {
-          anime-game-launcher.enable = true; # Adds launcher and /etc/hosts rules
+          anime-game-launcher.enable = false; # Adds launcher and /etc/hosts rules
           anime-games-launcher.enable = false;
           honkers-railway-launcher.enable = false;
           honkers-launcher.enable = false;
           wavey-launcher.enable = false;
-          sleepy-launcher.enable = false;
+          sleepy-launcher.enable = true;
         };
        }
       ];
