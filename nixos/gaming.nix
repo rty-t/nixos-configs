@@ -1,23 +1,6 @@
 { config, pkgs, ... }:
 
-let
-  aagl = import (builtins.fetchTarball "https://github.com/ezKEa/aagl-gtk-on-nix/archive/main.tar.gz");
-  # Or, if you follow Nixpkgs release 25.05:
-  # aagl = import (builtins.fetchTarball "https://github.com/ezKEa/aagl-gtk-on-nix/archive/release-25.05.tar.gz");
-in
 {
-  imports = [
-    aagl.module
-  ];
-
-  nix.settings = aagl.nixConfig;                    # Set up Cachix
-  programs.anime-game-launcher.enable = true;       # genshin
-  programs.anime-games-launcher.enable = false;     # all anime games
-  programs.honkers-railway-launcher.enable = false; # hsr
-  programs.honkers-launcher.enable = false;         # honkai
-  programs.wavey-launcher.enable = false;           # waves
-  programs.sleepy-launcher.enable = false;          # zzz
-
   programs.gamescope = {
       enable = true;
       capSysNice = true;
