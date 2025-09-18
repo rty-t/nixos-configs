@@ -8,6 +8,9 @@
         rate = "1s";
         cpu_left_legend = false;
         current_usage = true;
+        group_processes = false;
+        basic = false;
+        battery = false;
       };
     };
   };

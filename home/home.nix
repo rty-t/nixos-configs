@@ -11,6 +11,7 @@
   ./cli/skim.nix
   ./cli/zoxide.nix
   ./cli/bottom.nix
+  ./cli/btop.nix
   ./editors/vim.nix
   ./editors/helix.nix
   ./editors/vscode.nix
