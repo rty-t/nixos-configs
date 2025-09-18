@@ -2,7 +2,7 @@
   programs.git = {
    enable = true;
    userName = "rty-t";
-   userEmail = "bebra.porn@gmail.com";
+   userEmail = "email@forconfig";
    extraConfig = {
       branch.autosetuprebase = "always";
       color.ui = true;
