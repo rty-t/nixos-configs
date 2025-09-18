@@ -9,7 +9,7 @@
       vim_keys = true;
       show_uptime = true;
       show_cpu_watts = false;
-      chech_temp = true;
+      check_temp = true;
       show_cpu_freq = true;
       show_swap = false;
       show_disk = true;
