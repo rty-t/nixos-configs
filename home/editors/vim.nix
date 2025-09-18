@@ -4,10 +4,15 @@
   programs.vim = {
     enable = true;
     defaultEditor = false; # because i use hx
-    plugins = with pkgs; vimPlugins [
+    settings = {
+      number = true;
+    };
+    plugins = with pkgs.vimPlugins; [
       vim-nix
       zoxide-vim
       skim-vim
+      auto-pairs
+      vim-polyglot
     ];
   };
 }
