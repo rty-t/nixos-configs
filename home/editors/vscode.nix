@@ -14,6 +14,7 @@
       "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
       "git.openRepositoryInParentFolders" = "always";
       "git.confirmSync" = false;
+      "git.enableSmartCommit" = true;
      };
     };
    };
