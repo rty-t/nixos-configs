@@ -6,7 +6,7 @@
    enableZshIntegration = false;
    installBatSyntax = true;
    settings = {
-    theme = "GitHub-Dark-Colorblind";
+    theme = "GitHub Dark Colorblind";
     font-size = 12;
     cursor-opacity = 1;
     cursor-style = "block";

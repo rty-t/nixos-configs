@@ -4,6 +4,6 @@
    enableFishIntegration = true;
    git = true;
    colors = "always";
-   extraOptions = ["--icons auto"];
+   extraOptions = ["--icons" "auto"];
   };
 }
