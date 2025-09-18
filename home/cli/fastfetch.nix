@@ -3,7 +3,7 @@
      enable = true;
      settings = {        
      logo = {
-	    source = "~/Pictures/nya.png";
+	    source = "~/nixos-configs/nya.png";
 	    type = "kitty";
 	    height = 12;
 	    padding = {

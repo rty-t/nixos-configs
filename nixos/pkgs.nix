@@ -13,8 +13,6 @@
       "nvidia-settings"
       "steam-unwrapped"
       "steam"
-      "modrinth-app"
-      "modrinth-app-unwrapped"
       "osu-lazer"
       "osu-lazer-bin"
     ];

@@ -2,7 +2,7 @@
     services.zapret = {
       enable = true;
       params = [
-        "--filter-tcp=80 ˂HOSTLIST˃"
+        "--filter-tcp=80 <HOSTLIST>"
         "--dpi-desync=fake,fakedsplit"
         "--dpi-desync-autottl=2"
         "--dpi-desync-fooling=md5sig"
