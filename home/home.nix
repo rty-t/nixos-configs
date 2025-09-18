@@ -10,6 +10,7 @@
   ./cli/eza.nix
   ./cli/skim.nix
   ./cli/zoxide.nix
+  ./editors/vim.nix
   ./editors/helix.nix
   ./editors/vscode.nix
   ./gui/mangohud.nix
