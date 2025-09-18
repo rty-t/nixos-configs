@@ -11,6 +11,7 @@
         group_processes = false;
         basic = false;
         battery = false;
+        network_legend = "none";
       };
     };
   };

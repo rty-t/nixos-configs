@@ -5,10 +5,8 @@
     enable = true;
     shellAliases = {
       ff = "fastfetch";
-      rcat = "cat";
-      cat = "bat --theme base16";
-      rdu = "du";
-      du = "dust";
+      c = "bat --theme base16";
+      d = "dust";
       v = "vim";
       hm = "home-manager";
       hms = "home-manager switch";
@@ -23,6 +21,7 @@
       nrsfiu = "sudo nixos-rebuild switch --flake ~/nixos-configs/ --impure --upgrade";
       nfu = "cd ~/nixos-configs/ && sudo nix flake update";
       ncu = "nix-channel --update";
+      "ncu!" = "sudo nix-channel --update";
       nix-clear = "sudo nix-collect-garbage -d && sudo nix-store --optimise";
     };
   };
