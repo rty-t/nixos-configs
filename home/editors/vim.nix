@@ -13,6 +13,7 @@
       skim-vim
       auto-pairs
       vim-polyglot
+      cmp-fish
     ];
   };
 }
