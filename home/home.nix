@@ -17,6 +17,7 @@
   ./editors/vscode.nix
   ./gui/vesktop.nix
   ./gui/librewolf.nix
+  ./gui/lutris.nix
   ./terms/ghostty.nix
   #./terms/kitty.nix
   ];
