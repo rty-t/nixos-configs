@@ -25,8 +25,9 @@
      #fluffychat
 
      ## CLI pkgs
-     fd
      wget
+     broot
+     fd      # better find
      bat     # better cat
      ripgrep # better grep
      dust    # better du
