@@ -29,7 +29,7 @@
     # Packages système
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     programs.kdeconnect = {
-      enable = false;
+      enable = true;
       package = pkgs.gnomeExtensions.gsconnect;
     };
 

@@ -33,6 +33,5 @@
 
      ## Dev 
      android-tools # adb/fastboot
-     python313
   ];  
 }
