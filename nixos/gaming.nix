@@ -27,7 +27,7 @@
      #heroic        # Native GOG, Epic, and Amazon Games Launcher
      #lutris        # Open Source gaming platform for GNU/Linux
      #bottles       # Easy-to-use wineprefix manager
-     #mangohud      # Monitoring FPS (I have module mangohud.nix btw)
-     #mangojuice    # GUI settings for mangohud (gtk)
+     mangohud       # Monitoring FPS 
+     mangojuice     # GUI settings for mangohud (gtk)
     ];
 }
