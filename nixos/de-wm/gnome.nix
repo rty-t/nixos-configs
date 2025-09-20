@@ -66,7 +66,6 @@
         gnome-font-viewer
         gnome-maps
         gnome-weather
-        gnome-terminal
         gnome-system-monitor
         gnome-characters
         gnome-music
