@@ -11,8 +11,8 @@
         error_symbol = "[✗](bold red)"; 
       };
       format = lib.concatStrings [
-        "[>>](bold cyan)"
-        "[   ](bold blue)"
+        "[0w0](bold blue)"
+        "[  ](bold blue)"
         "$directory"
         "$git_branch"
         "$git_status"
