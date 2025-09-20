@@ -13,6 +13,7 @@
   ./cli/bottom.nix
   ./cli/btop.nix
   ./cli/nh.nix
+  ./cli/starship.nix
   ./editors/vim.nix
   ./editors/helix.nix
   ./editors/vscode.nix
