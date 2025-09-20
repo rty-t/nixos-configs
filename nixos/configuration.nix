@@ -20,7 +20,6 @@
     ./de-wm/gnome.nix
     ./fonts.nix
     ./gaming.nix
-    ./virt.nix
     ];
 
   nix = { 
