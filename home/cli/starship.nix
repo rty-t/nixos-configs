@@ -5,14 +5,15 @@
     enable = true;
     enableFishIntegration = true;
     settings = {
-      add_newline = true;
+      add_newline = false;
       character = {
-        success_symbol = "[❯](bold green)";
-        error_symbol = "[✗](bold red)"; 
+        success_symbol = "[❯](fg:green bg:black)";
+        error_symbol = "[✗](fg:red bg:black)"; 
       };
       format = lib.concatStrings [
-        "[0w0](bold blue)"
-        "[  ](bold blue)"
+        "[0w0](fg:black bg:white)"
+        "[ ](fg:blue bg:black)"
+        "  "
         "$directory"
         "$git_branch"
         "$git_status"
