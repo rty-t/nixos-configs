@@ -3,6 +3,7 @@
 {
   programs.lutris = {
     enable = true;
-    defaultWinePackage = pkgs.proton-cachyos_x86_64_v3;
+    defaultWinePackage = pkgs.proton-ge-bin;
+    protonPackages = with pkgs; [ proton-ge-bin ];
   };
 }

@@ -42,7 +42,6 @@
       modules = [
         ./home/home.nix
         nixowos.homeModules.default
-        chaotic.homeModules.default
       ];
     };
   };
