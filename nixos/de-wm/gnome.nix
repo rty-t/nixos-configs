@@ -1,17 +1,13 @@
 {lib, pkgs, ... }:
 
 {
-
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    # Activation  GNOME
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     services = {
       udev.packages = [ pkgs.gnome-settings-daemon ];        
         displayManager.gdm.enable = lib.mkDefault true;
         desktopManager.gnome = {
           enable = lib.mkDefault true;
 
-          # Activation du Fractional Scaling
+          
           extraGSettingsOverridePackages = [ pkgs.mutter ];
           extraGSettingsOverrides = ''
               [org.gnome.mutter]
@@ -25,9 +21,6 @@
     systemd.services."getty@tty1".enable = false;
     systemd.services."autovt@tty1".enable = false;
 
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    # Packages système
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     programs.kdeconnect = {
       enable = true;
       package = pkgs.gnomeExtensions.gsconnect;
@@ -36,10 +29,8 @@
     environment = {
       systemPackages = with pkgs; [
 
-        # theme
         papirus-icon-theme
 
-        # Extensions
         gnomeExtensions.caffeine
         gnomeExtensions.appindicator
         gnomeExtensions.dash-to-dock
@@ -54,9 +45,6 @@
         gnomeExtensions.user-themes
       ];
 
-      # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      # exclude packages from GNOME
-      # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       gnome.excludePackages = with pkgs; [
         tali
         iagno
@@ -85,6 +73,7 @@
         gnome-secrets
       ];
     };
+
    services.flatpak.packages = [ 
     "org.altlinux.Tuner" 
     "io.github.swordpuffin.rewaita"
