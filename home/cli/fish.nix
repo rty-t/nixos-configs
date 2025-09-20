@@ -7,7 +7,6 @@
       ff = "fastfetch";
       cat = "bat --theme base16";
       du = "dust";
-      tree = "broot";
     };
   };
 

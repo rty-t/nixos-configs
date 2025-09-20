@@ -16,13 +16,11 @@
      telegram-desktop
      #ayugram-desktop
      #materialgram
-     #paper-plane #gtk
 
      ## Matrix/Element clients
      #element-desktop
      fractal
      #nheko
-     #fluffychat
 
      ## CLI pkgs
      wget
