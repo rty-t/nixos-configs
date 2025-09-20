@@ -8,6 +8,9 @@
       cat = "bat --theme base16";
       du = "dust";
     };
+    interactiveShellInit = ''
+      set -U fish_greeting ""
+    '';
   };
 
     # Plugins for fish
