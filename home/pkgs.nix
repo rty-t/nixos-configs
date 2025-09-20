@@ -4,9 +4,9 @@
   home.packages = with pkgs; [
 
      ## Some apps
-     mission-center # system monitor
-     switcheroo     # convert images
-     #blockbench    # low-poly 3D modeling
+     mission-center 
+     switcheroo    
+     #blockbench    
 
      ## Notes/markdown
      #logseq
@@ -25,10 +25,10 @@
      ## CLI pkgs
      wget
      broot
-     fd      # better find
-     bat     # better cat
-     ripgrep # better grep
-     dust    # better du
+     fd      
+     bat     
+     ripgrep 
+     dust    
 
      ## Dev 
      android-tools # adb/fastboot
