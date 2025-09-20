@@ -12,7 +12,6 @@
 
     # Plugins for fish
     home.packages = with pkgs.fishPlugins; [
-     tide
      autopair
      sponge
      git-abbr
