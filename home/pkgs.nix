@@ -24,7 +24,6 @@
 
      ## CLI pkgs
      wget
-     broot
      fd      
      bat     
      ripgrep 
