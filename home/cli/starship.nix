@@ -4,4 +4,4 @@
     enableFishIntegration = true;
     settings = {};
   };
-};
+}
