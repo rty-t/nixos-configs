@@ -3,7 +3,7 @@
     enable = true;
     overlays = {
       enable = true;
-      fastfetch = false; # Use fasfetch.nix instead
+      fastfetch = false; # Use fastfetch.nix instead
       nitch = true;
       neofetch = true;
       nixos-icons = true;

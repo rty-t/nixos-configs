@@ -16,6 +16,7 @@
         "$directory"
         "$git_branch"
         "$git_status"
+        "$cmd_duration"
         "\n$character"
       ];
    };
