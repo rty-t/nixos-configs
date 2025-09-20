@@ -23,6 +23,7 @@
      #nheko
 
      ## CLI pkgs
+     nitch
      wget
      fd      
      bat     
