@@ -20,9 +20,9 @@
      ## Matrix/Element clients
      #element-desktop
      fractal
-     #nheko
 
      ## CLI pkgs
+     alejandra
      wget
      fd      
      bat     

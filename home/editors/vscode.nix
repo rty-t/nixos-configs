@@ -8,6 +8,7 @@
     extensions = with pkgs.vscode-extensions; [
       jnoortheen.nix-ide
       github.github-vscode-theme
+      kamadorueda.alejandra
      ];
     userSettings = {
       "files.autoSave" = "on";
