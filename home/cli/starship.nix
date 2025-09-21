@@ -24,7 +24,7 @@
         read_only = " 󰌾 ";
         read_only_style = "red";
         substitutions = {
-          "~" = " ";
+          "~" = " ~";
           "Documents" = "󰈙 ";
           "Downloads" = " ";
           "Music" = " ";
