@@ -1,35 +1,29 @@
-{pkgs, ...}:
-
-{
+{pkgs, ...}: {
   home.packages = with pkgs; [
+    ## Some apps
+    mission-center
+    switcheroo
+    fractal
+    #blockbench
 
-     ## Some apps
-     mission-center 
-     switcheroo    
-     #blockbench    
+    ## Notes/markdown
+    #logseq
+    folio #gtk
 
-     ## Notes/markdown
-     #logseq
-     folio #gtk
+    ## Telegram clients
+    telegram-desktop
+    #ayugram-desktop
+    #materialgram
 
-     ## Telegram clients
-     telegram-desktop
-     #ayugram-desktop
-     #materialgram
+    ## CLI pkgs
+    alejandra
+    wget
+    fd
+    bat
+    ripgrep
+    dust
 
-     ## Matrix/Element clients
-     #element-desktop
-     fractal
-
-     ## CLI pkgs
-     alejandra
-     wget
-     fd      
-     bat     
-     ripgrep 
-     dust    
-
-     ## Dev 
-     android-tools # adb/fastboot
-  ];  
+    ## Dev
+    android-tools # adb/fastboot
+  ];
 }

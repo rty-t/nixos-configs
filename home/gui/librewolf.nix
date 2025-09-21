@@ -1,5 +1,5 @@
 {
-   programs.librewolf = {
+  programs.librewolf = {
     enable = true;
     settings = {
       "webgl.disabled" = false;

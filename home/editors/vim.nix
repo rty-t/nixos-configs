@@ -1,6 +1,4 @@
-{pkgs, ...}:
-
-{
+{pkgs, ...}: {
   programs.vim = {
     enable = true;
     defaultEditor = false; # because i use hx

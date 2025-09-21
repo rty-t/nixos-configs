@@ -1,9 +1,9 @@
 {
   programs.git = {
-   enable = true;
-   userName = "rty-t";
-   userEmail = "email@forconfig";
-   extraConfig = {
+    enable = true;
+    userName = "rty-t";
+    userEmail = "email@forconfig";
+    extraConfig = {
       branch.autosetuprebase = "always";
       color.ui = true;
       core.askPass = "";
