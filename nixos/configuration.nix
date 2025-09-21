@@ -1,9 +1,5 @@
-
-{ config, lib, pkgs, ... }:
-
 {
-  imports =
-    [ 
+  imports = [
     ./hardware-configuration.nix
     ./fstrim.nix
     ./pipewire.nix
@@ -20,32 +16,31 @@
     ./de-wm/gnome.nix
     ./fonts.nix
     ./gaming.nix
-    ];
+  ];
 
-  nix = { 
-   optimise.automatic = true;
-   settings = {
-    experimental-features = [ "nix-command" "flakes" ];
-    auto-optimise-store = true;
-    warn-dirty = false;
-   };
-   
-   gc = {
-     automatic = true;
-     dates = "weekly";
-     options = "--delete-older-than 14d";
-     };
-   };
+  nix = {
+    optimise.automatic = true;
+    settings = {
+      experimental-features = ["nix-command" "flakes"];
+      auto-optimise-store = true;
+      warn-dirty = false;
+    };
+
+    gc = {
+      automatic = true;
+      dates = "weekly";
+      options = "--delete-older-than 14d";
+    };
+  };
 
   nixowos = {
-   enable = true;
-   os-release = {
-     enable = true;
-     changeName = true;
-     changeId = false;
-   };
+    enable = true;
+    os-release = {
+      enable = true;
+      changeName = true;
+      changeId = false;
+    };
   };
-   
-  system.stateVersion = "25.05"; 
 
+  system.stateVersion = "25.05";
 }

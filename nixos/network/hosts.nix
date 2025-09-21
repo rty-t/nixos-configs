@@ -35,7 +35,7 @@
       "www.spotify.com"
       "accounts.spotify.com"
     ];
-    "204.12.192.221" = [ "open.spotify.com" ];
+    "204.12.192.221" = ["open.spotify.com"];
     ## Anthropic
     "185.246.223.127" = [
       "console.anthropic.com"
@@ -71,3 +71,4 @@
   };
 }
 ### dns.malw.link: end hosts file
+

@@ -1,19 +1,22 @@
-{ lib, config, pkgs, ... }:
-
 {
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
   services.xserver.videoDrivers = ["nvidia"];
 
   hardware = {
     graphics.enable = true;
     nvidia = {
-     modesetting.enable = true;
-     powerManagement = { 
-      enable = true;
-      finegrained = false;
-     };
-     open = true;
-     nvidiaSettings = true;
-     package = config.boot.kernelPackages.nvidiaPackages.latest;
+      modesetting.enable = true;
+      powerManagement = {
+        enable = true;
+        finegrained = false;
+      };
+      open = true;
+      nvidiaSettings = true;
+      package = config.boot.kernelPackages.nvidiaPackages.latest;
     };
   };
 }
