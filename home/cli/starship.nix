@@ -7,8 +7,8 @@
     settings = {
       add_newline = false; 
       character = {
-        success_symbol = "[❯](bold blue)";
-        error_symbol = "[✗](bold red)";
+        success_symbol = "[](bold blue)";
+        error_symbol = "[](bold red)";
       }; 
 
       format = lib.concatStrings [
@@ -21,19 +21,29 @@
 
       directory = {
         format = "[$path ](bold blue)";
-        truncation_length = 2;
+        truncation_length = 3;
         truncation_symbol = "…/";
         read_only = " 󰌾 ";
         read_only_style = "red";
+        substitutions = {
+          "~" = " ";
+          "Documents" = "󰈙 ";
+          "Downloads" = " ";
+          "Music" = " ";
+          "Pictures" = " ";
+          "Games" = " ";
+          "Videos" = " ";
+          "nixos-configs" = " ";
+        };
       };
 
       git_branch = {
         format = "[ $symbol$branch](purple) ";
-        symbol = "  ";
+        symbol = " 󰊢 ";
       };
 
       cmd_duration = {
-        format = "[  $duration](yellow) ";
+        format = "[  $duration](yellow) ";
       };
 
    };
