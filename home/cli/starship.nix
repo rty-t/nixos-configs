@@ -25,7 +25,27 @@
           NixOS = " ";
           Arch = " ";
           Fedora = " ";
+          Nobara = " ";
+          Redhat = " ";
+          RedHatEnterprise = " ";
+          RockyLinux = " ";
+          openSUSE = " ";
+          SUSE = " ";
+          AlmaLinux = " ";
           Ubuntu = " ";
+          Pop = " ";
+          Mint = "󰣭 ";
+          Debian = " ";
+          Kali = " ";
+          EndeavourOS = " ";
+          Garuda = " ";
+          Artix = " ";
+          Manjaro = " ";
+          Alpine = " ";
+          Solus = " ";
+          Void = " ";
+          Gentoo = " ";
+          Linux = " ";
           Macos = " ";
           Android = " ";
           Windows = " ";
@@ -47,7 +67,7 @@
           "Pictures" = " ";
           "Games" = " ";
           "Videos" = " ";
-          "nixos-configs" = " ";
+          "nixos-configs" = " ";
         };
       };
 
