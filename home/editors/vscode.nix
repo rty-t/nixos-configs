@@ -11,6 +11,7 @@
       userSettings = {
         "files.autoSave" = "on";
         "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
+        "editor.fontFamily" = "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'";
         "git.openRepositoryInParentFolders" = "always";
         "git.confirmSync" = false;
         "git.enableSmartCommit" = true;
