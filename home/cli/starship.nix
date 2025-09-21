@@ -5,21 +5,37 @@
     enable = true;
     enableFishIntegration = true;
     settings = {
-      add_newline = false;
+      add_newline = false; 
       character = {
-        success_symbol = "[❯](fg:green bg:black)";
-        error_symbol = "[✗](fg:red bg:black)"; 
-      };
+        success_symbol = "[❯](bold blue)";
+        error_symbol = "[✗](bold red)";
+      }; 
+
       format = lib.concatStrings [
-        "[0w0](fg:black bg:white)"
-        "[ ](fg:blue bg:black)"
-        "  "
+        "╭──"
         "$directory"
-        "$git_branch"
-        "$git_status"
+        "$git_branch$git_status"
         "$cmd_duration"
-        "\n$character"
+        "\n╰─$character"
       ];
+
+      directory = {
+        format = "[$path ](bold blue)";
+        truncation_length = 2;
+        truncation_symbol = "…/";
+        read_only = " 󰌾 ";
+        read_only_style = "red";
+      };
+
+      git_branch = {
+        format = "[ $symbol$branch](purple) ";
+        symbol = "  ";
+      };
+
+      cmd_duration = {
+        format = "[  $duration](yellow) ";
+      };
+
    };
   };
 }
