@@ -11,11 +11,27 @@
 
       format = lib.concatStrings [
         "╭──"
+        "$os"
         "$directory"
         "$git_branch$git_status"
         "$cmd_duration"
         "\n╰─$character"
       ];
+
+      os = {
+        format = "[$symbol ](white)";
+        disabled = false;
+        symbols = {
+          NixOS = " ";
+          Arch = " ";
+          Fedora = " ";
+          Ubuntu = " ";
+          Macos = " ";
+          Android = " ";
+          Windows = " ";
+          Unknown = " ";
+        };
+      };
 
       directory = {
         format = "[$path ](bold blue)";
