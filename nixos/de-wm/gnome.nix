@@ -54,7 +54,7 @@
       geary
       xterm
       totem
-
+      loupe
       epiphany
       packagekit
 
