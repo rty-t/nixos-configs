@@ -16,6 +16,7 @@
     #materialgram
 
     ## CLI pkgs
+    deadnix
     pfetch-rs
     alejandra
     wget
