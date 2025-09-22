@@ -3,6 +3,7 @@
     enable = true;
     shellAliases = {
       ff = "fastfetch";
+      pf = "pfetch";
       cat = "bat --theme base16";
       du = "dust";
     };

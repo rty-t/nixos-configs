@@ -16,6 +16,7 @@
     #materialgram
 
     ## CLI pkgs
+    pfetch-rs
     alejandra
     wget
     fd
