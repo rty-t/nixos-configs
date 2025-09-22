@@ -16,6 +16,7 @@
     #materialgram
 
     ## CLI pkgs
+    conceal
     deadnix
     pfetch-rs
     alejandra
