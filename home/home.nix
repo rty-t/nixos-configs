@@ -19,7 +19,6 @@
     ./gui/lutris.nix
     ./gui/swappy.nix
     ./terms/ghostty.nix
-    #./terms/kitty.nix
   ];
 
   home = {

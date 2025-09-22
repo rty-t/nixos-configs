@@ -1,21 +1,20 @@
 {
   imports = [
-    ./hardware-configuration.nix
-    ./fstrim.nix
-    ./pipewire.nix
-    ./sudo-rs.nix
-    ./boot.nix
-    ./nvidia.nix
-    ./locale.nix
     ./pkgs.nix
     ./user.nix
+    ./hardware/hardware-configuration.nix
+    ./hardware/fstrim.nix
+    ./hardware/pipewire.nix
+    ./hardware/nvidia.nix
+    ./software/sudo-rs.nix
+    ./software/boot.nix
+    ./software/locale.nix
+    ./software/fonts.nix
+    ./software/gaming.nix
     ./network/networking.nix
     ./network/hosts.nix
     ./network/zapre.nix
-    #./de-wm/plasma.nix
     ./de-wm/gnome.nix
-    ./fonts.nix
-    ./gaming.nix
   ];
 
   nix = {
