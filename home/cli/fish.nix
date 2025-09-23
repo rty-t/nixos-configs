@@ -6,6 +6,7 @@
       pf = "pfetch";
       cat = "bat --theme base16";
       du = "dust";
+      rm = "cnc";
     };
     interactiveShellInit = ''
       set -U fish_greeting ""

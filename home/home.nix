@@ -29,6 +29,7 @@
       EDITOR = "hx";
       TERM = "ghostty";
       SHELL = "fish";
+      CONCEAL_FINDER = "skim";
     };
   };
 
