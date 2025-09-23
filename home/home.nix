@@ -26,8 +26,6 @@
     homeDirectory = "/home/pyndys";
     stateVersion = "25.05";
     sessionVariables = {
-      EDITOR = "hx";
-      TERM = "ghostty";
       SHELL = "fish";
       CONCEAL_FINDER = "skim";
     };
