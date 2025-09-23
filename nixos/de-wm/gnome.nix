@@ -28,21 +28,19 @@
   };
 
   environment = {
-    systemPackages = with pkgs; [
-      papirus-icon-theme
-
-      gnomeExtensions.caffeine
-      gnomeExtensions.appindicator
-      gnomeExtensions.dash-to-dock
-      gnomeExtensions.blur-my-shell
-      gnomeExtensions.notification-timeout
-      gnomeExtensions.gamemode-shell-extension
-      gnomeExtensions.rounded-window-corners-reborn
-      gnomeExtensions.just-perfection
-      gnomeExtensions.window-title-is-back
-      gnomeExtensions.logo-menu
-      gnomeExtensions.runcat
-      gnomeExtensions.user-themes
+    systemPackages = with pkgs.gnomeExtensions; [
+      caffeine
+      appindicator
+      dash-to-dock
+      blur-my-shell
+      notification-timeout
+      gamemode-shell-extension
+      rounded-window-corners-reborn
+      just-perfection
+      window-title-is-back
+      logo-menu
+      runcat
+      user-themes
     ];
 
     gnome.excludePackages = with pkgs; [
