@@ -18,6 +18,7 @@
     ./gui/librewolf.nix
     ./gui/lutris.nix
     ./gui/swappy.nix
+    ./gui/theming.nix
     ./terms/ghostty.nix
   ];
 
