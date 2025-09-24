@@ -3,7 +3,6 @@
     ./nixowos.nix
     ./pkgs.nix
     ./cli/fish.nix
-    ./cli/fastfetch.nix
     ./cli/git.nix
     ./cli/eza.nix
     ./cli/skim.nix

@@ -16,15 +16,17 @@
     #materialgram
 
     ## CLI pkgs
-    conceal
-    deadnix
+    microfetch
+    leaf
     pfetch-rs
+    deadnix
     alejandra
     wget
     fd
     bat
     ripgrep
     dust
+    conceal
 
     ## Dev
     android-tools # adb/fastboot
