@@ -73,7 +73,7 @@
 
       git_branch = {
         format = "[ $symbol$branch](purple) ";
-        symbol = " 󰊢 ";
+        symbol = "  ";
       };
 
       cmd_duration = {

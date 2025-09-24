@@ -16,8 +16,6 @@
     #materialgram
 
     ## CLI pkgs
-    microfetch
-    leaf
     pfetch-rs
     deadnix
     alejandra
