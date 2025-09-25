@@ -10,7 +10,7 @@
     ./cli/btop.nix
     ./cli/nh.nix
     ./cli/starship.nix
-    ./editors/vim.nix
+    ./editors/nixvim.nix
     ./editors/helix.nix
     ./editors/vscode.nix
     ./gui/vesktop.nix
