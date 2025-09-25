@@ -28,6 +28,14 @@
         enable = true;
         settings.git.enable = true;
       };
+      conform-nvim = {
+        enable = true;
+        settings = {
+          formatters_by_ft.nix = ["alejandra"];
+          format_on_save.lsp_fallback = true;
+        };
+      };
+      web-devicons.enable = true; # needed by some plugins
       telescope.enable = true;
       gitsigns.enable = true;
     };
