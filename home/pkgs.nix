@@ -16,7 +16,7 @@
     #materialgram
 
     ## CLI pkgs
-    pfetch-rs
+    leaf
     deadnix
     alejandra
     wget

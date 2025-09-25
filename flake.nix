@@ -7,6 +7,7 @@
     nixowos.url = "github:yunfachi/nixowos";
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
     aagl.url = "github:ezKEa/aagl-gtk-on-nix";
+    nixvim.url = "github:nix-community/nixvim";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -19,6 +20,7 @@
     nixowos,
     nix-flatpak,
     aagl,
+    nixvim,
     ...
   }: let
     system = "x86_64-linux";
@@ -49,6 +51,7 @@
       modules = [
         ./home/home.nix
         nixowos.homeModules.default
+        nixvim.homeModules.default
       ];
     };
   };
