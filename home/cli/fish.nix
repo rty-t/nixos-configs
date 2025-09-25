@@ -11,11 +11,8 @@
     '';
   };
 
-  # Plugins for fish
   home.packages = with pkgs.fishPlugins; [
     autopair
     sponge
-    git-abbr
-    fish-you-should-use
   ];
 }
