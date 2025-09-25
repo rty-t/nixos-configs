@@ -10,6 +10,19 @@
       relativenumber = false;
     };
 
+    keymaps = [
+      {
+        mode = "n";
+        key = "<C-b>";
+        action = ":NvimTreeOpen<CR>";
+      }
+      {
+        mode = "n";
+        key = "<C-x>";
+        action = ":Telescope<CR>";
+      }
+    ];
+
     colorschemes.palette = {
       enable = true;
       settings = {
