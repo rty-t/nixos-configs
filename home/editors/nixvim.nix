@@ -8,5 +8,11 @@
         caching = false;
       };
     };
+    plugins = {
+      nvim-autopairs.enable = true;
+      nvim-tree.enable = true;
+      telescope.enable = true;
+      gitsigns.enable = true;
+    };
   };
 }
