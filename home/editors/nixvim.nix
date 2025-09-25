@@ -4,8 +4,8 @@
     colorschemes.palette = {
       enable = true;
       settings = {
-      transparent_background = true;
-      caching = false;
+        transparent_background = true;
+        caching = false;
       };
     };
   };
