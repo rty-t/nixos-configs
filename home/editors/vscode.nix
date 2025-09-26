@@ -7,10 +7,12 @@
         jnoortheen.nix-ide
         github.github-vscode-theme
         kamadorueda.alejandra
+        pkief.material-icon-theme
       ];
       userSettings = {
         "files.autoSave" = "on";
         "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
+        "workbench.iconTheme" = "material-icon-theme";
         "editor.fontFamily" = "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'";
         "git.openRepositoryInParentFolders" = "always";
         "git.confirmSync" = false;
