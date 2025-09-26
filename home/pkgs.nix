@@ -16,6 +16,8 @@
     #materialgram
 
     ## CLI pkgs
+    honeyfetch
+    nitch
     leaf
     pfetch-rs
     microfetch
