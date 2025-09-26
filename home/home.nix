@@ -1,6 +1,5 @@
 {pkgs, ...}: {
   imports = [
-    ./nixowos.nix
     ./pkgs.nix
     ./cli/fish.nix
     ./cli/git.nix

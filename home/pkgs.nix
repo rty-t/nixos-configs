@@ -16,6 +16,7 @@
     #materialgram
 
     ## CLI pkgs
+    leaf
     pfetch-rs
     microfetch
     deadnix

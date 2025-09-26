@@ -32,14 +32,5 @@
     };
   };
 
-  nixowos = {
-    enable = true;
-    os-release = {
-      enable = true;
-      changeName = true;
-      changeId = false;
-    };
-  };
-
   system.stateVersion = "25.05";
 }
