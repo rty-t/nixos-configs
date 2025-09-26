@@ -48,8 +48,20 @@
           format_on_save.lsp_fallback = true;
         };
       };
+      indent-blankline = {
+        enable = true;
+        settings = {
+          indent.char = "│";
+          scope.enabled = true;
+        };
+      };
       web-devicons.enable = true; # needed by some plugins
-      telescope.enable = true;
+      telescope = {
+        enable = true;
+        extensions = {
+          zoxide.enable = true;
+        };
+      };
       gitsigns.enable = true;
     };
   };
