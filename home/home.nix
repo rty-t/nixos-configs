@@ -17,6 +17,7 @@
     ./gui/lutris.nix
     ./gui/swappy.nix
     ./gui/swww.nix
+    ./gui/waybar.nix
     ./terms/ghostty.nix
     ./hypr/hyprland.nix
   ];
