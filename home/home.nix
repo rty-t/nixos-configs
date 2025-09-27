@@ -17,6 +17,7 @@
     ./gui/lutris.nix
     ./gui/swappy.nix
     ./terms/ghostty.nix
+    ./hypr/hyprland.nix
   ];
 
   home = {

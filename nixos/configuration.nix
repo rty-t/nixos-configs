@@ -14,8 +14,8 @@
     ./network/networking.nix
     ./network/hosts.nix
     ./network/zapre.nix
-    ./de-wm/gnome.nix
-    #./de-wm/hyprland.nix
+    #./de-wm/gnome.nix
+    ./de-wm/hyprland.nix
   ];
 
   nix = {

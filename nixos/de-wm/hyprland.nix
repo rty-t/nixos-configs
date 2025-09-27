@@ -7,6 +7,4 @@
   };
 
   services.displayManager.ly.enable = true;
-
-  programs.xdg-desktop-portal-hyprland.enable = true;
 }
