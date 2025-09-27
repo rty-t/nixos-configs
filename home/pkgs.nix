@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     ## Some apps
-    kitty
+    wofi
     mission-center
     switcheroo
     fractal
