@@ -17,6 +17,7 @@
         "git.openRepositoryInParentFolders" = "always";
         "git.confirmSync" = false;
         "git.enableSmartCommit" = true;
+        "explorer.confirmDelete" = false;
       };
     };
   };
