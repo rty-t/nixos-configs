@@ -4,7 +4,6 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
-    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
     aagl.url = "github:ezKEa/aagl-gtk-on-nix";
     nixvim.url = "github:nix-community/nixvim";
     home-manager.url = "github:nix-community/home-manager";
@@ -13,7 +12,6 @@
     nixpkgs,
     home-manager,
     chaotic,
-    nix-flatpak,
     aagl,
     nixvim,
     ...
@@ -25,7 +23,6 @@
       modules = [
         ./nixos/configuration.nix
         chaotic.nixosModules.default
-        nix-flatpak.nixosModules.nix-flatpak
         {
           imports = [aagl.nixosModules.default];
           nix.settings = aagl.nixConfig; # Set up Cachix
