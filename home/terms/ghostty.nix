@@ -4,7 +4,7 @@
     enableFishIntegration = true;
     installBatSyntax = true;
     settings = {
-      theme = "stylix";
+      theme = "GitHub Dark Colorblind";
       font-size = 12;
       cursor-opacity = 1;
       cursor-style = "block";

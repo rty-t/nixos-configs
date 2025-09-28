@@ -14,7 +14,7 @@
     ./network/networking.nix
     ./network/hosts.nix
     ./network/zapre.nix
-    ./de-wm/hyprland.nix
+    ./de-wm/gnome.nix
   ];
 
   nix = {
@@ -30,12 +30,6 @@
       dates = "weekly";
       options = "--delete-older-than 14d";
     };
-  };
-
-  stylix = {
-    enable = true;
-    autoEnable = true;
-    image = ~/Downloads/wallhaven-lyqm5r.png;
   };
 
   system.stateVersion = "25.05";

@@ -2,7 +2,7 @@
   programs.btop = {
     enable = true;
     settings = {
-      color_theme = "stylix";
+      color_theme = "TTY";
       theme_background = false;
       truecolor = false;
       force_tty = false;

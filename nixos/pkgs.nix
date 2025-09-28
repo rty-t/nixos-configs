@@ -6,6 +6,7 @@
   # System packages
   environment.systemPackages = with pkgs; [
     f2fs-tools #for f2fs
+    papirus-icon-theme
   ];
 
   # Unfree
@@ -18,4 +19,18 @@
       "osu-lazer"
       "osu-lazer-bin"
     ];
+
+  # flatpak
+  services.flatpak = {
+    enable = true;
+    packages = [
+      "io.github.kolunmi.Bazaar"
+      "io.github.flattool.Warehouse"
+      "com.github.tchx84.Flatseal"
+    ];
+    update.auto = {
+      enable = true;
+      onCalendar = "weekly";
+    };
+  };
 }

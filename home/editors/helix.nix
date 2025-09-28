@@ -6,7 +6,7 @@
       "!.gitignore"
     ];
     settings = {
-      theme = "stylix";
+      theme = "base16_transparent";
     };
   };
 }
