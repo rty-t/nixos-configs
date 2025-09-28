@@ -16,9 +16,9 @@
     ./gui/librewolf.nix
     ./gui/lutris.nix
     ./gui/swappy.nix
-    ./gui/swww.nix
     ./gui/waybar.nix
     ./gui/fuzzel.nix
+    ./gui/stylix.nix
     ./terms/ghostty.nix
     ./hypr/hyprland.nix
   ];

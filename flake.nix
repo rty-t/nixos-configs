@@ -6,6 +6,7 @@
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     aagl.url = "github:ezKEa/aagl-gtk-on-nix";
     nixvim.url = "github:nix-community/nixvim";
+    stylix.url = "github:nix-community/stylix";
     home-manager.url = "github:nix-community/home-manager";
   };
   outputs = {
@@ -14,6 +15,7 @@
     chaotic,
     aagl,
     nixvim,
+    stylix,
     ...
   }: let
     system = "x86_64-linux";
@@ -42,6 +44,7 @@
       modules = [
         ./home/home.nix
         nixvim.homeModules.default
+        stylix.homeModules.stylix
       ];
     };
   };
