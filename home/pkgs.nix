@@ -3,7 +3,6 @@
     ## Some apps
     mission-center
     switcheroo
-    fractal
     #blockbench
 
     ## Notes/markdown
