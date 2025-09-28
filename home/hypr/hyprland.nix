@@ -6,6 +6,10 @@
       "$browser" = "librewolf";
       "$terminal" = "ghostty";
 
+      exec-once = [
+        "waybar"
+      ];
+
       monitor = [",1920x1080@120,auto,1"];
 
       bind = [
@@ -13,7 +17,7 @@
         "$mainMod, W, exec, $browser"
         "$mainMod, C, exec, codium"
         "$mainMod, Q, killactive,"
-        "$mainMod, D, exec, wofi -d"
+        "$mainMod, D, exec, fuzzel"
 
         "$mainMod, 1, workspace, 1"
         "$mainMod, 2, workspace, 2"

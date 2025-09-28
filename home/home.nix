@@ -18,6 +18,7 @@
     ./gui/swappy.nix
     ./gui/swww.nix
     ./gui/waybar.nix
+    ./gui/fuzzel.nix
     ./terms/ghostty.nix
     ./hypr/hyprland.nix
   ];
