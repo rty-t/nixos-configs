@@ -32,5 +32,11 @@
     };
   };
 
+  stylix = {
+    enable = true;
+    autoEnable = true;
+    image = ~/Downloads/wallhaven-lyqm5r.png;
+  };
+
   system.stateVersion = "25.05";
 }

@@ -17,6 +17,7 @@
     ./gui/lutris.nix
     ./gui/swappy.nix
     ./gui/waybar.nix
+    ./gui/swww.nix
     ./gui/fuzzel.nix
     ./gui/stylix.nix
     ./terms/ghostty.nix

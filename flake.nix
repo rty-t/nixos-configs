@@ -25,6 +25,7 @@
       modules = [
         ./nixos/configuration.nix
         chaotic.nixosModules.default
+        stylix.nixosModules.stylix
         {
           imports = [aagl.nixosModules.default];
           nix.settings = aagl.nixConfig; # Set up Cachix
