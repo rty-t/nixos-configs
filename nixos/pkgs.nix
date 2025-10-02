@@ -7,6 +7,7 @@
   environment.systemPackages = with pkgs; [
     f2fs-tools #for f2fs
     papirus-icon-theme
+    warehouse
   ];
 
   # Unfree
@@ -25,7 +26,6 @@
     enable = true;
     packages = [
       "io.github.kolunmi.Bazaar"
-      "io.github.flattool.Warehouse"
       "com.github.tchx84.Flatseal"
     ];
     update.auto = {
