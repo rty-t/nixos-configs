@@ -23,6 +23,7 @@
     microfetch
     deadnix
     alejandra
+    nix-btm
     wget
     fd
     bat
@@ -32,5 +33,7 @@
 
     ## Dev
     android-tools # adb/fastboot
+    python313
+    go
   ];
 }
