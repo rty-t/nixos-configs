@@ -8,6 +8,8 @@
         github.github-vscode-theme
         kamadorueda.alejandra
         pkief.material-icon-theme
+        golang.go
+        ms-python.python
       ];
       userSettings = {
         "files.autoSave" = "on";
