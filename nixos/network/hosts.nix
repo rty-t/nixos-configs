@@ -36,11 +36,13 @@
       "accounts.spotify.com"
     ];
     "204.12.192.221" = ["open.spotify.com"];
-    ## Anthropic
     "185.246.223.127" = [
+      ## Anthropic
       "console.anthropic.com"
       "auth.anthropic.com"
       "api.anthropic.com"
+      ## Qwant
+      "www.qwant.com"
     ];
     "0.0.0.0" = [
       # IP Logger'ы:
