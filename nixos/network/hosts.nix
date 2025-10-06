@@ -37,11 +37,11 @@
     ];
     "204.12.192.221" = ["open.spotify.com"];
     "185.246.223.127" = [
-      ## Anthropic
+      #Anthropic
       "console.anthropic.com"
       "auth.anthropic.com"
       "api.anthropic.com"
-      ## Qwant
+      #Qwant
       "www.qwant.com"
     ];
     "0.0.0.0" = [
