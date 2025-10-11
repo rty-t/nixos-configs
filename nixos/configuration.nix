@@ -14,7 +14,7 @@
     ./software/gaming.nix
     ./network/networking.nix
     ./network/hosts.nix
-    ./network/zapre.nix
+    ./network/amnezia.nix
     ./de-wm/gnome.nix
   ];
 
