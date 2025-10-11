@@ -8,6 +8,7 @@
     ./hardware/nvidia.nix
     ./software/sudo-rs.nix
     ./software/boot.nix
+    ./software/sched-ext.nix
     ./software/locale.nix
     ./software/fonts.nix
     ./software/gaming.nix

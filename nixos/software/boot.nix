@@ -11,9 +11,4 @@
     #kernelPackages = pkgs.linuxPackages_latest;                                               # Default kernel
     kernelPackages = pkgs.linuxPackages_cachyos.cachyOverride {mArch = "GENERIC_V3";}; # CachyOS kernel
   };
-  services.scx = {
-    enable = true;
-    package = pkgs.scx_git.rustscheds;
-    scheduler = "scx_lavd";
-  };
 }
