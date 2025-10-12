@@ -1,26 +1,11 @@
-{
-  lib,
-  pkgs,
-  ...
-}: {
+{pkgs, ...}: {
   services = {
     udev.packages = [pkgs.gnome-settings-daemon];
-    displayManager.gdm.enable = lib.mkDefault true;
-    desktopManager.gnome = {
-      enable = lib.mkDefault true;
-
-      extraGSettingsOverridePackages = [pkgs.mutter];
-      extraGSettingsOverrides = ''
-          [org.gnome.mutter]
-        experimental-features=['scale-monitor-framebuffer', 'variable-refresh-rate']
-      '';
-    };
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
   };
 
   documentation.nixos.enable = false;
-
-  systemd.services."getty@tty1".enable = false;
-  systemd.services."autovt@tty1".enable = false;
 
   programs.kdeconnect = {
     enable = true;
@@ -70,9 +55,4 @@
       gnome-secrets
     ];
   };
-
-  services.flatpak.packages = [
-    "org.altlinux.Tuner"
-    "io.github.swordpuffin.rewaita"
-  ];
 }

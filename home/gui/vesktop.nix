@@ -4,7 +4,7 @@
     settings = {
       appBadge = false;
       arRPC = true;
-      checkUpdates = true;
+      checkUpdates = false;
       customTitleBar = false;
       disableMinSize = true;
       minimizeToTray = true;
