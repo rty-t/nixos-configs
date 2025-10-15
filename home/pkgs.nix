@@ -5,10 +5,7 @@
     switcheroo
     fractal
     #blockbench
-
-    ## Notes/markdown
-    #logseq
-    folio #gtk
+    logseq
 
     ## Telegram clients
     telegram-desktop
@@ -18,9 +15,7 @@
     ## CLI pkgs
     honeyfetch
     nitch
-    leaf
     pfetch-rs
-    microfetch
     deadnix
     alejandra
     nix-btm
