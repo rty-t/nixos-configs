@@ -6,15 +6,10 @@
     fractal
     #blockbench
     logseq
-
-    ## Telegram clients
-    telegram-desktop
-    #ayugram-desktop
-    #materialgram
+    materialgram
 
     ## CLI pkgs
     honeyfetch
-    nitch
     pfetch-rs
     deadnix
     alejandra
