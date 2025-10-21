@@ -23,7 +23,7 @@
 
     ## Dev
     android-tools # adb/fastboot
-    python313
+    python314
     go
   ];
 }
