@@ -25,6 +25,7 @@
     adwsteamgtk
     prismlauncher
     osu-lazer-bin # appimage ver with online score
+    heroic
     mangohud
     mangojuice
   ];
