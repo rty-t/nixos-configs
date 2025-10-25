@@ -7,6 +7,7 @@
     ./hardware/pipewire.nix
     ./hardware/nvidia.nix
     ./hardware/zram.nix
+    ./hardware/printer.nix
     ./software/sudo-rs.nix
     ./software/boot.nix
     ./software/sched-ext.nix
