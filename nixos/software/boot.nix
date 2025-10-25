@@ -10,5 +10,8 @@
     #kernelPackages = pkgs.linuxPackages_lqx;                                                  # Liquorix kernel
     #kernelPackages = pkgs.linuxPackages_latest;                                               # Default kernel
     kernelPackages = pkgs.linuxPackages_cachyos.cachyOverride {mArch = "GENERIC_V3";}; # CachyOS kernel
+    kernel.sysctl = {
+      "vm.swappiness" = 10;
+    };
   };
 }
