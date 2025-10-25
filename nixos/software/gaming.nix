@@ -1,4 +1,6 @@
 {pkgs, ...}: {
+  powerManagement.cpuFreqGovernor = "performance";
+
   programs.gamescope = {
     enable = true;
     capSysNice = true;
