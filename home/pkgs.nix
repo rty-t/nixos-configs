@@ -13,6 +13,7 @@
     pfetch-rs
     deadnix
     alejandra
+    ruff
     wget
     fd
     bat
