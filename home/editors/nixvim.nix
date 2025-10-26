@@ -1,19 +1,29 @@
 {
   programs.nixvim = {
     enable = true;
+
     opts = {
       swapfile = false;
       backup = false;
       writebackup = false;
       undofile = true;
+
       number = true;
       relativenumber = false;
     };
 
+    colorschemes.palette = {
+      enable = true;
+      settings = {
+        transparent_background = true;
+        caching = false;
+      };
+    };
+
     lsp.servers = {
-      nil-ls.enable = true;
-      pyright.enable = true;
-      gopls.enable = true;
+      nil-ls.enable = true; # Nix
+      pyright.enable = true; # Python
+      gopls.enable = true; # Go
     };
 
     keymaps = [
@@ -29,24 +39,38 @@
       }
     ];
 
-    colorschemes.palette = {
-      enable = true;
-      settings = {
-        transparent_background = true;
-        caching = false;
-      };
-    };
-
     plugins = {
       alpha = {
         enable = true;
         theme = "dashboard";
       };
-      nvim-autopairs.enable = true;
+
       nvim-tree = {
         enable = true;
         settings.git.enable = true;
       };
+
+      telescope = {
+        enable = true;
+        extensions = {
+          zoxide.enable = true;
+          media-files.enable = true;
+          fzf-native.enable = true;
+        };
+      };
+
+      web-devicons.enable = true;
+
+      nvim-autopairs.enable = true;
+
+      indent-blankline = {
+        enable = true;
+        settings = {
+          indent.char = "│";
+          scope.enabled = true;
+        };
+      };
+
       conform-nvim = {
         enable = true;
         settings = {
@@ -58,21 +82,19 @@
           format_on_save.lsp_fallback = true;
         };
       };
-      indent-blankline = {
-        enable = true;
-        settings = {
-          indent.char = "│";
-          scope.enabled = true;
-        };
-      };
-      web-devicons.enable = true; # needed by some plugins
-      telescope = {
-        enable = true;
-        extensions = {
-          zoxide.enable = true;
-        };
-      };
+
       gitsigns.enable = true;
+    };
+
+    dependencies = {
+      bat.enable = true;
+      fzf.enable = true;
+      fd.enable = true;
+      ripgrep.enable = true;
+      imagemagick.enable = true;
+      go.enable = true;
+      fish.enable = true;
+      git.enable = true;
     };
   };
 }
