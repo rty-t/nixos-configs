@@ -4,7 +4,7 @@
     ./cli/fish.nix
     ./cli/git.nix
     ./cli/eza.nix
-    ./cli/skim.nix
+    ./cli/fzf.nix
     ./cli/zoxide.nix
     ./cli/nh.nix
     ./cli/starship.nix
@@ -20,10 +20,6 @@
     username = "pyndys";
     homeDirectory = "/home/pyndys";
     stateVersion = "25.05";
-    sessionVariables = {
-      SHELL = "fish";
-      CONCEAL_FINDER = "skim";
-    };
   };
 
   nix.package = pkgs.nix;
