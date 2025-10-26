@@ -5,7 +5,6 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
-    aagl.url = "github:ezKEa/aagl-gtk-on-nix";
     nixvim.url = "github:nix-community/nixvim";
     home-manager.url = "github:nix-community/home-manager";
   };
@@ -14,7 +13,6 @@
     home-manager,
     chaotic,
     nix-flatpak,
-    aagl,
     nixvim,
     ...
   }: let
@@ -26,18 +24,6 @@
         ./nixos/configuration.nix
         chaotic.nixosModules.default
         nix-flatpak.nixosModules.nix-flatpak
-        {
-          imports = [aagl.nixosModules.default];
-          nix.settings = aagl.nixConfig; # Set up Cachix
-          programs = {
-            anime-game-launcher.enable = false; # Adds launcher and /etc/hosts rules
-            anime-games-launcher.enable = false;
-            honkers-railway-launcher.enable = false;
-            honkers-launcher.enable = false;
-            wavey-launcher.enable = false;
-            sleepy-launcher.enable = true;
-          };
-        }
       ];
     };
     homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {

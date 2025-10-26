@@ -6,11 +6,9 @@
     ./cli/eza.nix
     ./cli/skim.nix
     ./cli/zoxide.nix
-    ./cli/btop.nix
     ./cli/nh.nix
     ./cli/starship.nix
     ./editors/nixvim.nix
-    ./editors/helix.nix
     ./editors/vscode.nix
     ./gui/vesktop.nix
     ./gui/librewolf.nix

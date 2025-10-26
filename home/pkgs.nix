@@ -13,7 +13,6 @@
     pfetch-rs
     deadnix
     alejandra
-    nix-btm
     wget
     fd
     bat
