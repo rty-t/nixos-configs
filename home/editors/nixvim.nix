@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{
   programs.nixvim = {
     enable = true;
     opts = {
@@ -11,28 +11,16 @@
     };
 
     lsp.servers = {
-      "nix" = {
-        name = "nix";
-        enable = true;
-        package = pkgs.nix;
-      };
-      "python" = {
-        name = "python";
-        enable = true;
-        package = pkgs.python314;
-      };
-      "go" = {
-        name = "go";
-        enable = true;
-        package = pkgs.go;
-      };
+      nil-ls.enable = true;
+      pyright.enable = true;
+      gopls.enable = true;
     };
 
     keymaps = [
       {
         mode = "n";
         key = "<C-b>";
-        action = ":NvimTreeOpen<CR>";
+        action = ":NvimTreeToggle<CR>";
       }
       {
         mode = "n";
@@ -65,7 +53,7 @@
           formatters_by_ft = {
             nix = ["alejandra"];
             go = ["gofmt"];
-            python = ["ruff"];
+            python = ["ruff_format"];
           };
           format_on_save.lsp_fallback = true;
         };
