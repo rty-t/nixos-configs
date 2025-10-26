@@ -12,13 +12,24 @@
         ms-python.python
       ];
       userSettings = {
-        "files.autoSave" = "on";
         "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
         "workbench.iconTheme" = "material-icon-theme";
         "editor.fontFamily" = "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'";
+
         "git.openRepositoryInParentFolders" = "always";
         "git.confirmSync" = false;
         "git.enableSmartCommit" = true;
+
+        "extensions.autoCheckUpdates" = false;
+        "extensions.autoUpdate" = "None";
+
+        "files.autoSave" = "on";
+
+        "terminal.explorerKind" = "external";
+        "terminal.external.linuxExec" = "ghostty";
+
+        "chat.agent.enabled" = false;
+        "chat.disableAIFeatures" = true;
       };
     };
   };
