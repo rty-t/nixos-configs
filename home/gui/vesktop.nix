@@ -4,7 +4,7 @@
     settings = {
       appBadge = false;
       arRPC = true;
-      checkUpdates = true;
+      checkUpdates = false;
       customTitleBar = false;
       disableMinSize = true;
       minimizeToTray = true;
@@ -15,6 +15,27 @@
       staticTitle = false;
       hardwareAcceleration = true;
       discordBranch = "stable";
+    };
+    vencord = {
+      useSystem = true;
+      settings = {
+        autoUpdate = false;
+        autoUpdateNotification = false;
+        useQuickCss = true;
+        frameless = true;
+        transparent = false;
+        disableMinSize = false;
+        plugins = {
+          AnonymiseFileNames = {
+            enabled = true;
+            anonymiseByDefault = true;
+            method = 0;
+            randomisedLength = 7;
+          };
+          ClearURLs.enabled = true;
+          oneko.enabled = true;
+        };
+      };
     };
   };
 }
