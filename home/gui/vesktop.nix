@@ -25,6 +25,10 @@
         frameless = true;
         transparent = false;
         disableMinSize = false;
+        enabledThemes = [
+          "EmojiReplace.theme.css"
+          "Material-Discord.theme.css"
+        ];
         plugins = {
           AnonymiseFileNames = {
             enabled = true;
