@@ -4,27 +4,36 @@
     package = pkgs.vscodium;
     profiles.pyndys = {
       extensions = with pkgs.vscode-extensions; [
-        jnoortheen.nix-ide
+        ## UI
         github.github-vscode-theme
-        kamadorueda.alejandra
         pkief.material-icon-theme
+
+        ## Nix
+        kamadorueda.alejandra
+        jnoortheen.nix-ide
+
+        ## Go
         golang.go
+
+        ## Python
         ms-python.python
+        charliermarsh.ruff
       ];
       userSettings = {
+        ## UI
         "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
         "workbench.iconTheme" = "material-icon-theme";
         "editor.fontFamily" = "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'";
         "workbench.startupEditor" = "none";
 
+        ## Git
         "git.openRepositoryInParentFolders" = "always";
         "git.confirmSync" = false;
         "git.enableSmartCommit" = true;
 
+        ## Other settings
         "files.autoSave" = "on";
-
-        "chat.agent.enabled" = false;
-        "chat.disableAIFeatures" = true;
+        "editor.formatOnSave" = true;
       };
     };
   };
