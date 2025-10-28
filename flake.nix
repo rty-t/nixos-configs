@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    nur.url = "github:nix-community/NUR";
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=latest";
     nixvim.url = "github:nix-community/nixvim";
     home-manager.url = "github:nix-community/home-manager";
@@ -12,6 +13,7 @@
     nixpkgs,
     home-manager,
     chaotic,
+    nur,
     nix-flatpak,
     nixvim,
     ...
@@ -30,6 +32,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
       modules = [
         ./home/home.nix
+        nur.modules.homeManager.default
         nixvim.homeModules.default
       ];
     };
