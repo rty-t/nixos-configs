@@ -37,7 +37,6 @@
         ];
         "browser.newtabpage.activity-stream.feeds.topsites" = true;
         "browser.newtabpage.activity-stream.showSponsoredCheckboxes" = false;
-        "extensions.update.autoUpdateDefault" = false;
       };
       search = {
         engines = {
