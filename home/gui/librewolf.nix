@@ -59,6 +59,7 @@
           darkreader
           sponsorblock
           return-youtube-dislikes
+          material-icons-for-github
         ];
       };
     };
