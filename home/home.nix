@@ -5,10 +5,14 @@
     ./cli/git.nix
     ./cli/eza.nix
     ./cli/fzf.nix
-    ./cli/zoxide.nix
+    ./cli/z.nix
     ./cli/nh.nix
     ./cli/starship.nix
-    ./editors/nixvim.nix
+    ./cli/rg.nix
+    ./cli/fd.nix
+    ./cli/bat.nix
+    ./cli/fetch.nix
+    ./editors/nvim.nix
     ./editors/vscode.nix
     ./gui/vesktop.nix
     ./gui/librewolf.nix

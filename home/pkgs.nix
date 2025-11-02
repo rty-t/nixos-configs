@@ -9,17 +9,13 @@
     materialgram
 
     ## CLI pkgs
-    honeyfetch
-    pfetch-rs
     deadnix
     alejandra
     ruff
     wget
-    fd
-    bat
-    ripgrep
     dust
     conceal
+    nur.repos.zerozawa.mikusays
 
     ## Dev
     android-tools # adb/fastboot
