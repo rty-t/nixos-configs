@@ -1,16 +1,6 @@
 {pkgs, ...}: {
-  programs.gamescope = {
-    enable = true;
-    capSysNice = true;
-    args = [
-      "-W 1920 -H 1080 -r 120" # My monitor
-      "--rt"
-    ];
-  };
-
   programs.steam = {
     enable = true;
-    gamescopeSession.enable = true;
     remotePlay.openFirewall = true;
     dedicatedServer.openFirewall = true;
     localNetworkGameTransfers.openFirewall = true;
