@@ -10,27 +10,29 @@
     };
   };
 
-  documentation.nixos.enable = false;
-
   programs.kdeconnect = {
     enable = true;
     package = pkgs.gnomeExtensions.gsconnect;
   };
 
   environment = {
-    systemPackages = with pkgs.gnomeExtensions; [
-      caffeine
-      appindicator
-      dash-to-dock
-      blur-my-shell
-      notification-timeout
-      gamemode-shell-extension
-      rounded-window-corners-reborn
-      just-perfection
-      window-title-is-back
-      logo-menu
-      runcat
-      user-themes
-    ];
+    systemPackages = with pkgs;
+      [
+        nautilus
+      ]
+      ++ (with pkgs.gnomeExtensions; [
+        caffeine
+        appindicator
+        dash-to-dock
+        blur-my-shell
+        notification-timeout
+        gamemode-shell-extension
+        rounded-window-corners-reborn
+        just-perfection
+        window-title-is-back
+        logo-menu
+        runcat
+        user-themes
+      ]);
   };
 }
