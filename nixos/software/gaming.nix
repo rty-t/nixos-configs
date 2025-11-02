@@ -10,8 +10,18 @@
     ];
   };
 
+  programs.gamemode = {
+    enable = true;
+    enableRenice = true;
+    settings = {
+      general = {
+        desiredgov = "performance";
+        renice = 10;
+      };
+    };
+  };
+
   environment.systemPackages = with pkgs; [
-    gamemode
     adwsteamgtk
     prismlauncher
     osu-lazer-bin # appimage ver with online score
