@@ -2,7 +2,7 @@
   programs.fish = {
     enable = true;
     shellAliases = {
-      cat = "bat --theme base16";
+      cat = "bat";
       du = "dust";
       rm = "cnc";
     };
