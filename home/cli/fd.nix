@@ -1,5 +1,5 @@
 {
-  programs.bat = {
+  programs.fd = {
     enable = true;
   };
 }
