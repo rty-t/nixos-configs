@@ -38,28 +38,14 @@
         "browser.newtabpage.activity-stream.feeds.topsites" = true;
         "browser.newtabpage.activity-stream.showSponsoredCheckboxes" = false;
       };
-      search = {
-        engines = {
-          searchix = {
-            name = "Searchix";
-            urls = [{template = "https://searchix.ovh/?query={searchTerms}";}];
-          };
-          get = {
-            name = "4get";
-            urls = [{template = "https://4get.ch/web?s={searchTerms}";}];
-          };
-        };
-      };
       extensions = {
         packages = with pkgs.nur.repos.rycee.firefox-addons; [
           ublock-origin
           privacy-badger
-          decentraleyes
           istilldontcareaboutcookies
           darkreader
           sponsorblock
           return-youtube-dislikes
-          material-icons-for-github
         ];
       };
     };
