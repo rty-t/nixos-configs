@@ -19,6 +19,7 @@
     systemPackages = with pkgs;
       [
         nautilus
+        gnome-extension-manager
       ]
       ++ (with pkgs.gnomeExtensions; [
         caffeine
