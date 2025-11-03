@@ -3,7 +3,6 @@
     ## Some apps
     switcheroo
     fractal
-    #blockbench
     logseq
     materialgram
 
