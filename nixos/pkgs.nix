@@ -8,6 +8,7 @@
     f2fs-tools #for f2fs
     papirus-icon-theme
     warehouse
+    usbutils
   ];
 
   # Unfree

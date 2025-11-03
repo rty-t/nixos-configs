@@ -15,8 +15,8 @@
     ./editors/nvim.nix
     ./editors/vscode.nix
     ./gui/vesktop.nix
-    ./gui/librewolf.nix
     ./gui/swappy.nix
+    ./browsers/librewolf.nix
     ./terms/ghostty.nix
   ];
 
