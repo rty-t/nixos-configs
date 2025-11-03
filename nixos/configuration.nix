@@ -6,6 +6,7 @@
     ./hardware/fstrim.nix
     ./hardware/pipewire.nix
     ./hardware/nvidia.nix
+    ./hardware/udev-rules.nix
     ./hardware/printer.nix
     ./software/sudo-rs.nix
     ./software/boot.nix
