@@ -1,7 +1,6 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     ## Some apps
-    switcheroo
     logseq
     materialgram
 

@@ -26,8 +26,7 @@
     packages = [
       "io.github.kolunmi.Bazaar"
       "com.github.tchx84.Flatseal"
-      "org.altlinux.Tuner"
-      "io.github.swordpuffin.rewaita"
+      "org.vinegarhq.Sober"
     ];
     update.auto = {
       enable = true;

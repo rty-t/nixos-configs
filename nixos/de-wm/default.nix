@@ -1,5 +1,6 @@
 {
   imports = [
-    ./gnome.nix
+    #./gnome.nix
+    ./plasms.nix
   ];
 }
