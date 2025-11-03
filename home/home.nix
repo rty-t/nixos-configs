@@ -17,6 +17,7 @@
     ./gui/vesktop.nix
     ./gui/swappy.nix
     ./browsers/librewolf.nix
+    ./browsers/helium.nix
     ./terms/ghostty.nix
   ];
 
