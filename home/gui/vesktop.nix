@@ -17,7 +17,7 @@
       discordBranch = "stable";
     };
     vencord = {
-      useSystem = false;
+      useSystem = true;
       themes = {
         emoji = "@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);";
         material = "
@@ -26,7 +26,7 @@
         ";
       };
       settings = {
-        autoUpdate = true;
+        autoUpdate = false;
         autoUpdateNotification = false;
         useQuickCss = true;
         frameless = true;
