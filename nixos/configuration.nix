@@ -16,7 +16,8 @@
     ./software/gaming.nix
     ./network/networking.nix
     ./network/hosts.nix
-    ./network/amnezia.nix
+    ./network/amn.nix
+    ./network/searx.nix
     ./de-wm/gnome.nix
   ];
 
