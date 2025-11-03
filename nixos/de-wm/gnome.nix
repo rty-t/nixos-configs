@@ -20,6 +20,7 @@
       [
         nautilus
         gnome-extension-manager
+        mission-center
       ]
       ++ (with pkgs.gnomeExtensions; [
         caffeine
