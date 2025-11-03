@@ -1,6 +1,6 @@
 {
   imports = [
     ./vesktop.nix
-    ./swappy.nix
+    #./swappy.nix
   ];
 }
