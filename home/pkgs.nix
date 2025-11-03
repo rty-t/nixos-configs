@@ -2,7 +2,6 @@
   home.packages = with pkgs; [
     ## Some apps
     switcheroo
-    fractal
     logseq
     materialgram
 

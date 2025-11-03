@@ -20,10 +20,9 @@
       [
         nautilus
         gnome-extension-manager
-        mission-center
+        morewaita-icon-theme
       ]
       ++ (with pkgs.gnomeExtensions; [
-        caffeine
         appindicator
         dash-to-dock
         blur-my-shell
