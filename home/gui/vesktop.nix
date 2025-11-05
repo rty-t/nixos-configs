@@ -29,7 +29,7 @@
         autoUpdate = false;
         autoUpdateNotification = false;
         useQuickCss = true;
-        frameless = true;
+        frameless = false;
         transparent = false;
         disableMinSize = false;
         enabledThemes = [
