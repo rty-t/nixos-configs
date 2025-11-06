@@ -5,6 +5,9 @@
       cat = "bat";
       du = "dust";
       rm = "cnc";
+      ff = "fastfetch";
+      tree = "eza --tree";
+      ":q" = "exit";
     };
     interactiveShellInit = ''
       set -U fish_greeting ""
