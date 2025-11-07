@@ -1,7 +1,7 @@
 {
   imports = [
     ./networking.nix
-    #./hosts.nix
+    ./hosts.nix
     ./amn.nix
     ./searx.nix
   ];
