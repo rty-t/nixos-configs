@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   imports = [
     ./pkgs.nix
+    ./stylix.nix
     ./cli
     ./editors
     ./gui

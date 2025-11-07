@@ -6,5 +6,6 @@
     ./locale.nix
     ./fonts.nix
     ./gaming.nix
+    ./stylix.nix
   ];
 }
