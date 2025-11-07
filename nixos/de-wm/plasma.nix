@@ -18,9 +18,5 @@
       discover
       konsole
     ];
-
-    systemPackages = with pkgs; [
-      python313Packages.kde-material-you-colors
-    ];
   };
 }

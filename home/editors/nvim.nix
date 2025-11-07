@@ -12,14 +12,6 @@
       relativenumber = false;
     };
 
-    colorschemes.palette = {
-      enable = true;
-      settings = {
-        transparent_background = true;
-        caching = false;
-      };
-    };
-
     lsp.servers = {
       nil-ls.enable = true; # Nix
       pyright.enable = true; # Python

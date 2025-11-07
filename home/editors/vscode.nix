@@ -5,7 +5,6 @@
     profiles.pyndys = {
       extensions = with pkgs.vscode-extensions; [
         ## UI
-        github.github-vscode-theme
         pkief.material-icon-theme
 
         ## Nix
@@ -21,7 +20,6 @@
       ];
       userSettings = {
         ## UI
-        "workbench.colorTheme" = "GitHub Dark Colorblind (Beta)";
         "workbench.iconTheme" = "material-icon-theme";
         "editor.fontFamily" = "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Symbols Nerd Font Mono'";
         "workbench.startupEditor" = "none";

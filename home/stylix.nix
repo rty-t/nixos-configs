@@ -1,7 +1,7 @@
 {
   stylix = {
     enable = true;
-    image = "./wallpapers/wallpaper.png";
+    image = /home/pyndys/nixos-configs/home/wallpapers/wallpaper.jpg;
     polarity = "dark";
     autoEnable = true;
   };
