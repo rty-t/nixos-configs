@@ -18,13 +18,7 @@
     };
     vencord = {
       useSystem = true;
-      themes = {
-        emoji = "@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);";
-        material = "
-        @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
-        @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/material-you/source.css)
-        ";
-      };
+      themes.emoji = "@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css);";
       settings = {
         autoUpdate = false;
         autoUpdateNotification = false;
@@ -34,7 +28,6 @@
         disableMinSize = false;
         enabledThemes = [
           "emoji.css"
-          "material.css"
         ];
         plugins = {
           AnonymiseFileNames = {

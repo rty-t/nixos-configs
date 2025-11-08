@@ -1,21 +1,25 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     ## Some apps
-    logseq
-    materialgram
+    telegram-desktop
 
     ## CLI pkgs
-    deadnix
-    alejandra
-    ruff
     wget
     dust
     conceal
     nur.repos.zerozawa.mikusays
+    android-tools
 
-    ## Dev
-    android-tools # adb/fastboot
+    ## Nix
+    deadnix
+    statix
+    alejandra
+
+    ## Python
     python314
+    ruff
+
+    ## Go
     go
   ];
 }
