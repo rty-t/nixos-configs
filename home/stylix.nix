@@ -10,7 +10,7 @@
 
     fonts = {
       sansSerif.name = "Adwaita Sans";
-      monospace.name = "JetBrainsMono Nerd Font Mono";
+      monospace.name = "JetBrainsMono Nerd Font";
     };
 
     autoEnable = true;
