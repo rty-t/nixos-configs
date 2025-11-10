@@ -6,7 +6,6 @@
     ## CLI pkgs
     wget
     dust
-    conceal
     nitch
     pfetch-rs
     nur.repos.zerozawa.mikusays

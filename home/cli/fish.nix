@@ -4,10 +4,10 @@
     shellAliases = {
       cat = "bat";
       du = "dust";
-      rm = "cnc";
       ff = "fastfetch";
+      pf = "pfetch";
+      n = "nitch";
       tree = "eza --tree";
-      ":q" = "exit";
     };
     interactiveShellInit = ''
       set -U fish_greeting ""
@@ -17,5 +17,6 @@
   home.packages = with pkgs.fishPlugins; [
     autopair
     sponge
+    git-abbr
   ];
 }

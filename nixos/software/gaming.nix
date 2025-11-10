@@ -22,7 +22,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-    adwsteamgtk
     prismlauncher
     osu-lazer-bin # appimage ver with online score
     heroic
