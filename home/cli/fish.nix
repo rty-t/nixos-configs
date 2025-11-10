@@ -4,9 +4,6 @@
     shellAliases = {
       cat = "bat";
       du = "dust";
-      ff = "fastfetch";
-      pf = "pfetch";
-      n = "nitch";
       tree = "eza --tree";
     };
     interactiveShellInit = ''
