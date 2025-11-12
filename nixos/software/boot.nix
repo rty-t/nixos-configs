@@ -3,6 +3,7 @@
     loader = {
       systemd-boot.enable = true;
       efi.canTouchEfiVariables = true;
+      timeout = 0;
     };
     tmp.cleanOnBoot = true;
     #kernelPackages = pkgs.linuxPackages_xanmod_latest;                                        # Xanmod kernel
@@ -10,5 +11,9 @@
     #kernelPackages = pkgs.linuxPackages_lqx;                                                  # Liquorix kernel
     #kernelPackages = pkgs.linuxPackages_latest;                                               # Default kernel
     kernelPackages = pkgs.linuxPackages_cachyos.cachyOverride {mArch = "GENERIC_V3";}; # CachyOS kernel
+    kernelParams = [
+      "quiet"
+      "splash"
+    ];
   };
 }

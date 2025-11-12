@@ -6,9 +6,6 @@
     ## CLI pkgs
     wget
     dust
-    nitch
-    pfetch-rs
-    nerdfetch
     microfetch
     nur.repos.zerozawa.mikusays
     android-tools
