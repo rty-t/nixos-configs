@@ -11,6 +11,5 @@
     ./rg.nix
     ./fd.nix
     ./bat.nix
-    ./yazi.nix
   ];
 }

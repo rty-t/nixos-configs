@@ -17,7 +17,6 @@
       kate
       discover
       konsole
-      dolphin
     ];
   };
 }
