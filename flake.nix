@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     nur.url = "github:nix-community/NUR";
+    zen-browser.url = "github:youwen5/zen-browser-flake";
     stylix.url = "github:nix-community/stylix";
     nvf.url = "github:notashelf/nvf";
     home-manager.url = "github:nix-community/home-manager";
@@ -15,6 +16,7 @@
     chaotic,
     stylix,
     nur,
+    zen-browser,
     nvf,
     ...
   }: let

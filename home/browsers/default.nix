@@ -3,5 +3,6 @@
     ./librewolf.nix
     #./helium.nix
     ./chromium.nix
+    ./zen.nix
   ];
 }
