@@ -7,7 +7,6 @@
     wget
     dust
     microfetch
-    nur.repos.zerozawa.mikusays
 
     ## Dev
     python314
