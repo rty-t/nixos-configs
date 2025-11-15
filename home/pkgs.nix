@@ -8,18 +8,10 @@
     dust
     microfetch
     nur.repos.zerozawa.mikusays
-    android-tools
 
-    ## Nix
-    deadnix
-    statix
-    alejandra
-
-    ## Python
+    ## Dev
     python314
-    ruff
-
-    ## Go
     go
+    android-tools
   ];
 }

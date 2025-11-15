@@ -6,7 +6,7 @@
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
     nur.url = "github:nix-community/NUR";
     stylix.url = "github:nix-community/stylix";
-    nixvim.url = "github:nix-community/nixvim";
+    nvf.url = "github:notashelf/nvf";
     home-manager.url = "github:nix-community/home-manager";
   };
   outputs = {
@@ -15,7 +15,7 @@
     chaotic,
     stylix,
     nur,
-    nixvim,
+    nvf,
     ...
   }: let
     system = "x86_64-linux";
@@ -34,7 +34,7 @@
         ./home/home.nix
         nur.modules.homeManager.default
         stylix.homeModules.stylix
-        nixvim.homeModules.default
+        nvf.homeManagerModules.default
       ];
     };
   };
