@@ -19,7 +19,7 @@
           extraDiagnostics.enable = true;
           format = {
             enable = true;
-            type = "alejandra";
+            type = [ "alejandra" ];
           };
         };
 
@@ -27,7 +27,7 @@
           enable = true;
           format = {
             enable = true;
-            type = "ruff";
+            type = [ "ruff" ];
           };
         };
 
