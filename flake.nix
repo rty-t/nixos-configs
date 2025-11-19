@@ -9,6 +9,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     chaotic = {
       url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
       inputs = {
@@ -27,7 +32,10 @@
 
     stylix = {
       url = "github:nix-community/stylix";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        nur.follows = "nur";
+      };
     };
 
     nvf = {
@@ -36,33 +44,38 @@
     };
   };
 
-  outputs = {
-    nixpkgs,
-    home-manager,
-    chaotic,
-    stylix,
-    zen-browser,
-    nvf,
-    ...
-  }: let
-    system = "x86_64-linux";
-  in {
-    nixosConfigurations.cv01 = nixpkgs.lib.nixosSystem {
-      inherit system;
-      modules = [
-        ./nixos/configuration.nix
-        chaotic.nixosModules.default
-        stylix.nixosModules.stylix
-      ];
+  outputs =
+    {
+      nixpkgs,
+      home-manager,
+      nur,
+      chaotic,
+      stylix,
+      zen-browser,
+      nvf,
+      ...
+    }:
+    let
+      system = "x86_64-linux";
+    in
+    {
+      nixosConfigurations.cv01 = nixpkgs.lib.nixosSystem {
+        inherit system;
+        modules = [
+          ./nixos/configuration.nix
+          chaotic.nixosModules.default
+          stylix.nixosModules.stylix
+        ];
+      };
+      homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.${system};
+        modules = [
+          ./home/home.nix
+          nur.modules.homeManager.default
+          zen-browser.homeModules.beta
+          stylix.homeModules.stylix
+          nvf.homeManagerModules.default
+        ];
+      };
     };
-    homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {
-      pkgs = nixpkgs.legacyPackages.${system};
-      modules = [
-        ./home/home.nix
-        zen-browser.homeModules.beta
-        stylix.homeModules.stylix
-        nvf.homeManagerModules.default
-      ];
-    };
-  };
 }

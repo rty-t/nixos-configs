@@ -4,9 +4,11 @@
 
     settings.vim = {
       lineNumberMode = "number";
+      clipboard.enable = true;
       autopairs.nvim-autopairs.enable = true;
-      telescope.enable = true;
       git.gitsigns.enable = true;
+      filetree.nvimTree.enable = true;
+      presence.neocord.enable = true;
 
       lsp = {
         enable = true;
