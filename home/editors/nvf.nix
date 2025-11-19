@@ -6,7 +6,7 @@
       lineNumberMode = "number";
       autopairs.nvim-autopairs.enable = true;
       telescope.enable = true;
-      git.enable = true;
+      git.gitsigns.enable = true;
 
       lsp = {
         enable = true;
