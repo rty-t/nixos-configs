@@ -14,14 +14,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    chaotic = {
-      url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        home-manager.follows = "home-manager";
-      };
-    };
-
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs = {
@@ -49,7 +41,6 @@
       nixpkgs,
       home-manager,
       nur,
-      chaotic,
       stylix,
       zen-browser,
       nvf,
@@ -63,7 +54,6 @@
         inherit system;
         modules = [
           ./nixos/configuration.nix
-          chaotic.nixosModules.default
           stylix.nixosModules.stylix
         ];
       };

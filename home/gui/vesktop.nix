@@ -5,13 +5,9 @@
       appBadge = false;
       arRPC = true;
       checkUpdates = false;
-      customTitleBar = false;
-      disableMinSize = true;
       minimizeToTray = true;
       tray = true;
-      staticTitle = false;
       hardwareAcceleration = true;
-      discordBranch = "stable";
     };
     vencord = {
       useSystem = true;
@@ -21,20 +17,14 @@
         autoUpdateNotification = false;
         useQuickCss = true;
         frameless = false;
-        transparent = false;
-        disableMinSize = false;
-        enabledThemes = [
-          "emoji.css"
-        ];
+        enabledThemes = ["emoji.css"];
         plugins = {
-          AnonymiseFileNames = {
-            enabled = true;
-            anonymiseByDefault = true;
-            method = 0;
-            randomisedLength = 7;
-          };
+          AnonymiseFileNames.enabled = true;
           ClearURLs.enabled = true;
+          MessageLogger.enabled = true;
+          NoTypingAnimation.enabled = true;
           oneko.enabled = true;
+          WhoReacted.enabled = true;
         };
       };
     };
