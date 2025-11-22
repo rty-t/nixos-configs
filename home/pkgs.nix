@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home.packages = with pkgs; [
     ## Some apps
     telegram-desktop
@@ -16,4 +15,10 @@
     go
     android-tools
   ];
+
+  ## Unfree
+  nixpkgs.config.allowUnfreePredicate = pkg:
+    builtins.elem (lib.getName pkg) [
+      "obsidian"
+    ];
 }
