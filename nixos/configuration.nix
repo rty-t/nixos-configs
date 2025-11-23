@@ -9,17 +9,17 @@
   ];
 
   nix = {
-    optimise.automatic = true;
-    settings = {
-      experimental-features = ["nix-command" "flakes"];
-      auto-optimise-store = true;
-      warn-dirty = false;
+    settings.experimental-features = ["nix-command" "flakes"];
+
+    optimise = {
+      automatic = true;
+      dates = "weekly";
     };
 
     gc = {
       automatic = true;
       dates = "weekly";
-      options = "--delete-older-than 14d";
+      options = "--delete-older-than 30d";
     };
   };
 
