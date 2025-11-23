@@ -8,7 +8,6 @@
       autopairs.nvim-autopairs.enable = true;
       git.gitsigns.enable = true;
       filetree.nvimTree.enable = true;
-      presence.neocord.enable = true;
 
       lsp = {
         enable = true;
@@ -21,7 +20,7 @@
           extraDiagnostics.enable = true;
           format = {
             enable = true;
-            type = [ "alejandra" ];
+            type = ["alejandra"];
           };
         };
 
@@ -29,7 +28,7 @@
           enable = true;
           format = {
             enable = true;
-            type = [ "ruff" ];
+            type = ["ruff"];
           };
         };
 

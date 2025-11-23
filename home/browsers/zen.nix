@@ -12,6 +12,8 @@
         return-youtube-dislikes
         darkreader
         bitwarden
+        material-icons-for-github
+        istilldontcareaboutcookies
       ];
       settings = {
         "network.trr.mode" = 2;

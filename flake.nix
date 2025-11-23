@@ -36,36 +36,33 @@
     };
   };
 
-  outputs =
-    {
-      nixpkgs,
-      home-manager,
-      nur,
-      stylix,
-      zen-browser,
-      nvf,
-      ...
-    }:
-    let
-      system = "x86_64-linux";
-    in
-    {
-      nixosConfigurations.cv01 = nixpkgs.lib.nixosSystem {
-        inherit system;
-        modules = [
-          ./nixos/configuration.nix
-          stylix.nixosModules.stylix
-        ];
-      };
-      homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.${system};
-        modules = [
-          ./home/home.nix
-          nur.modules.homeManager.default
-          zen-browser.homeModules.beta
-          stylix.homeModules.stylix
-          nvf.homeManagerModules.default
-        ];
-      };
+  outputs = {
+    nixpkgs,
+    home-manager,
+    nur,
+    stylix,
+    zen-browser,
+    nvf,
+    ...
+  }: let
+    system = "x86_64-linux";
+  in {
+    nixosConfigurations.cv01 = nixpkgs.lib.nixosSystem {
+      inherit system;
+      modules = [
+        ./nixos/configuration.nix
+        stylix.nixosModules.stylix
+      ];
     };
+    homeConfigurations.pyndys = home-manager.lib.homeManagerConfiguration {
+      pkgs = nixpkgs.legacyPackages.${system};
+      modules = [
+        ./home/home.nix
+        nur.modules.homeManager.default
+        zen-browser.homeModules.beta
+        stylix.homeModules.stylix
+        nvf.homeManagerModules.default
+      ];
+    };
+  };
 }
