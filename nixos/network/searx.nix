@@ -9,7 +9,7 @@
       server = {
         port = 8080;
         secret_key = ""; # only for localhost
-        bind_addres = "127.0.0.1";
+        bind_address = "127.0.0.1";
       };
       ui = {
         default_locale = "ru";
