@@ -12,6 +12,5 @@
     ./fd.nix
     ./bat.nix
     ./btm.nix
-    ./btop.nix
   ];
 }

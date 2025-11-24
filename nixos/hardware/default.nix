@@ -5,6 +5,6 @@
     ./pipewire.nix
     ./nvidia.nix
     ./udev-rules.nix
-    ./openrgb.nix
+    #./openrgb.nix
   ];
 }
