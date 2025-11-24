@@ -8,7 +8,7 @@
       };
       server = {
         port = 8080;
-        secret_key = "@SEARX_SECRET_KEY@";
+        secret_key = ""; # only for localhost
         bind_addres = "127.0.0.1";
       };
       ui = {
