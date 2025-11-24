@@ -1,6 +1,6 @@
-{
+{config, ...}: {
   programs.nh = {
     enable = true;
-    flake = "/home/pyndys/nixos-configs";
+    flake = "${config.home.homeDirectory}/nixos-configs";
   };
 }
