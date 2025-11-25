@@ -1,12 +1,10 @@
 {pkgs, ...}: {
   imports = [
+    ./apps
+    ./editors
+    ./shell
     ./pkgs.nix
     ./stylix.nix
-    ./cli
-    ./editors
-    ./gui
-    ./browsers
-    ./terms
   ];
 
   home = {

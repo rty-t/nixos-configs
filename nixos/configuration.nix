@@ -1,11 +1,12 @@
 {
   imports = [
+    ./de-wm
+    ./hardware
+    ./network
+    ./software
+    ./system
     ./pkgs.nix
     ./user.nix
-    ./hardware
-    ./software
-    ./network
-    ./de-wm
   ];
 
   nix = {
