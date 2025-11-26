@@ -6,10 +6,10 @@
       color.ui = true;
       core.askPass = "";
       init.defaultBranch = "main";
-      github.user = "rty-t";
+      github.user = "pyndys";
       user = {
-        name = "rty-t";
-        email = "mikumiku@beam"; # Place with your really email, Hatsune Miku the best btw
+        name = "pyndys";
+        email = "mikumiku@beam"; # Place with your real email, Hatsune Miku the best btw
       };
     };
   };
