@@ -50,7 +50,7 @@
           "Pictures" = " ";
           "Games" = " ";
           "Videos" = " ";
-          "nixos-configs" = " ";
+          "mikuflakes" = " ";
         };
       };
 
