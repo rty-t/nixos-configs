@@ -8,6 +8,7 @@
       autopairs.nvim-autopairs.enable = true;
       git.gitsigns.enable = true;
       filetree.nvimTree.enable = true;
+      statusline.lualine.enable = true;
 
       lsp = {
         enable = true;

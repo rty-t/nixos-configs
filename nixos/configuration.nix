@@ -10,7 +10,10 @@
   ];
 
   nix = {
-    settings.experimental-features = ["nix-command" "flakes"];
+    settings = {
+      experimental-features = ["nix-command" "flakes"];
+      warn-dirty = false;
+    };
 
     optimise = {
       automatic = true;
