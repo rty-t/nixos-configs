@@ -2,10 +2,7 @@
   programs.alacritty = {
     enable = true;
     settings = {
-      font = {
-        size = 12;
-        normal.family = "JetBrainsMono Nerd Font";
-      };
+      font.size = 12;
       mouse.hide_when_typing = true;
     };
   };
