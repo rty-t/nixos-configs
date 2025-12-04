@@ -17,5 +17,9 @@
       kate
       konsole
     ];
+
+    systemPackages = with pkgs; [
+      haruna
+    ];
   };
 }

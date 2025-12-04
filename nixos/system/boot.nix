@@ -1,7 +1,10 @@
 {pkgs, ...}: {
   boot = {
     loader = {
-      systemd-boot.enable = true;
+      systemd-boot = {
+        enable = true;
+        editor = false;
+      };
       efi.canTouchEfiVariables = true;
       timeout = 0;
     };
@@ -12,6 +15,7 @@
     kernelParams = [
       "quiet"
       "splash"
+      "intel_iommu=on"
     ];
   };
 }

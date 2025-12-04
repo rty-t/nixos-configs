@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   stylix = {
     enable = true;
+    enableReleaseChecks = false;
 
     image = pkgs.fetchurl {
       url = "https://w.wallhaven.cc/full/rq/wallhaven-rqqegj.jpg";

@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     ## Some apps
+    logseq
     telegram-desktop
 
     ## CLI pkgs
