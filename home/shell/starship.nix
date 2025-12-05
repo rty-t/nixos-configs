@@ -50,7 +50,6 @@
           "Pictures" = " ";
           "Games" = " ";
           "Videos" = " ";
-          "mikuflakes" = " ";
         };
       };
 
