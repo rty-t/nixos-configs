@@ -7,6 +7,7 @@
     ## CLI pkgs
     wget
     dust
+    nix-melt
     onefetch
     microfetch
     nur.repos.zerozawa.mikusays
