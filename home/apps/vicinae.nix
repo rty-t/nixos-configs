@@ -1,5 +1,0 @@
-{
-  programs.vicinae = {
-    enable = true;
-  };
-}
