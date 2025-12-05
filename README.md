@@ -1,4 +1,4 @@
-# Just my configs for NixOS
+# Just my dotfiles for NixOS
 
 ## Tested on
 - i5-12400f
