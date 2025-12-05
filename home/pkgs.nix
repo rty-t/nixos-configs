@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     ## Some apps
+    transmission_4-qt6
     logseq
     telegram-desktop
 
