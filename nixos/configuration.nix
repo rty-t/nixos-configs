@@ -1,6 +1,6 @@
 {
   imports = [
-    ./de-wm
+    ./de-wm/plasma.nix
     ./hardware
     ./network
     ./software

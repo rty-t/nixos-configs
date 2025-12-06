@@ -2,10 +2,10 @@
 
 |env     | attribute                    |
 |--------|------------------------------|
-|de      | plasma/gnome/cosmic          |
-|shell   | fish                         |
-|terminal| foot/alacritty/kitty/ghostty |
-|editor  | helix/nvim(nvf)/vscodium     |
+|de | plasma |
+|shell | fish |
+|terminal| foot/alacritty/kitty |
+|editor | helix/nvf(nvim) |
 
 and others...
 
