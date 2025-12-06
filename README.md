@@ -1,17 +1,12 @@
 # Just my dotfiles for NixOS
 
 
-|nixpkgs | nixos-unstable  |
-|--------|-----------------|
-|de/wm   | plasma/gnome    |
-|--------|-----------------|
-|shell   | fish            |
-|--------|-----------------|
-|terminal| foot/alacritty/ |
-|        | kitty/ghostty   |
-|--------|-----------------|
-|editor  | helix/nvim(nvf)/|
-|        | vscodium        |
+|nixpkgs | nixos-unstable               |
+|--------|------------------------------|
+|de/wm   | plasma/gnome/cosmic          |
+|shell   | fish                         |
+|terminal| foot/alacritty/kitty/ghostty |
+|editor  | helix/nvim(nvf)/vscodium     |
 
 and others...
 
