@@ -1,5 +1,5 @@
 {
-  programs.fzf = {
+  programs.skim = {
     enable = true;
     enableFishIntegration = true;
   };

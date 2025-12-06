@@ -4,11 +4,11 @@
     ./gh.nix
     ./git.nix
     ./eza.nix
-    ./fzf.nix
     ./z.nix
     ./nh.nix
     ./starship.nix
     ./rg.nix
+    ./skim.nix
     ./fd.nix
     ./bat.nix
     ./btm.nix
