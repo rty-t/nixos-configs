@@ -11,7 +11,7 @@
 
     tmp.cleanOnBoot = true;
 
-    kernelPackages = pkgs.linuxPackages_zen;
+    kernelPackages = pkgs.linuxPackages_lqx;
     kernelParams = [
       "quiet"
       "splash"
