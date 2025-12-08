@@ -15,7 +15,6 @@
     kernelParams = [
       "quiet"
       "splash"
-      "intel_iommu=on"
     ];
   };
 }
