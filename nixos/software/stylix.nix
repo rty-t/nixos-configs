@@ -4,8 +4,8 @@
     enableReleaseChecks = false;
 
     image = pkgs.fetchurl {
-      url = "https://w.wallhaven.cc/full/rq/wallhaven-rqqegj.jpg";
-      hash = "sha256-UBFOZe+2+YKX6GFzcJtU65ArCgPUDQYDVgolrjofV2A=";
+      url = "https://w.wallhaven.cc/full/m9/wallhaven-m9q6e9.jpg";
+      hash = "sha256-5tYUMASHV9Wsu2MpbhdsFXKtm+NP2hz074N4o9Xu0xE=";
     };
     polarity = "dark";
 
