@@ -15,6 +15,7 @@
 
   environment.systemPackages = with pkgs; [
     prismlauncher
+    protonup-qt
     osu-lazer-bin # appimage ver with online score
     heroic
   ];

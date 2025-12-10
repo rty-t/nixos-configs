@@ -2,7 +2,7 @@
   home.packages = with pkgs; [
     ## Some apps
     transmission_4-qt6
-    telegram-desktop
+    materialgram
 
     ## CLI pkgs
     wget
